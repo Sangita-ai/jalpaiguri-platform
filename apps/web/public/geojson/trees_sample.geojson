@@ -1,0 +1,8505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701829,
+          26.55545
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 194.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705849,
+          26.551699
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 328.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703232,
+          26.547956
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 1,
+        "color": "#16a34a",
+        "carbonKg": 437.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707296,
+          26.547402
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 792.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707363,
+          26.551368
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "POOR",
+        "wardNumber": 1,
+        "color": "#dc2626",
+        "carbonKg": 463.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706731,
+          26.555696
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 704.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701526,
+          26.547166
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 284.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705752,
+          26.555053
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 332.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708565,
+          26.547875
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "DEAD",
+        "wardNumber": 1,
+        "color": "#94a3b8",
+        "carbonKg": 563.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706391,
+          26.551141
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 217.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701972,
+          26.546259
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "POOR",
+        "wardNumber": 1,
+        "color": "#dc2626",
+        "carbonKg": 450.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706893,
+          26.549189
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 1,
+        "color": "#16a34a",
+        "carbonKg": 247.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705017,
+          26.550517
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "FAIR",
+        "wardNumber": 1,
+        "color": "#ca8a04",
+        "carbonKg": 363.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705055,
+          26.550954
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 334.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708289,
+          26.5502
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 1,
+        "color": "#16a34a",
+        "carbonKg": 53.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697423,
+          26.550658
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "POOR",
+        "wardNumber": 1,
+        "color": "#dc2626",
+        "carbonKg": 493.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704796,
+          26.545131
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 1,
+        "color": "#16a34a",
+        "carbonKg": 44.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70583,
+          26.551595
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 1,
+        "color": "#16a34a",
+        "carbonKg": 143.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705062,
+          26.551196
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 221.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.7025,
+          26.553093
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 1,
+        "color": "#16a34a",
+        "carbonKg": 92.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699559,
+          26.548661
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 524.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708706,
+          26.548222
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 1,
+        "color": "#16a34a",
+        "carbonKg": 88.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705043,
+          26.551163
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 1,
+        "color": "#16a34a",
+        "carbonKg": 232.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704718,
+          26.551249
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "FAIR",
+        "wardNumber": 1,
+        "color": "#ca8a04",
+        "carbonKg": 96.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705551,
+          26.550687
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 1,
+        "color": "#14532d",
+        "carbonKg": 770.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710455,
+          26.546798
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 2,
+        "color": "#16a34a",
+        "carbonKg": 730.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708831,
+          26.552701
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 468.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710996,
+          26.549438
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "DEAD",
+        "wardNumber": 2,
+        "color": "#94a3b8",
+        "carbonKg": 723.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712407,
+          26.550125
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 461.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715449,
+          26.551807
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 624.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709824,
+          26.550033
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 295.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.714041,
+          26.552617
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 22.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710776,
+          26.549394
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 2,
+        "color": "#16a34a",
+        "carbonKg": 668.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71103,
+          26.549432
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 2,
+        "color": "#16a34a",
+        "carbonKg": 219.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711108,
+          26.547707
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 2,
+        "color": "#ca8a04",
+        "carbonKg": 155.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715337,
+          26.549562
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 147.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706179,
+          26.55383
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 456.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715939,
+          26.554099
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 530.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705992,
+          26.545343
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "POOR",
+        "wardNumber": 2,
+        "color": "#dc2626",
+        "carbonKg": 515.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711005,
+          26.549505
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 71.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70921,
+          26.548488
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "FAIR",
+        "wardNumber": 2,
+        "color": "#ca8a04",
+        "carbonKg": 46.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717068,
+          26.548088
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 506.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710044,
+          26.549782
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "DEAD",
+        "wardNumber": 2,
+        "color": "#94a3b8",
+        "carbonKg": 566.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707018,
+          26.550489
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 129.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710381,
+          26.545551
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 2,
+        "color": "#16a34a",
+        "carbonKg": 442.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710472,
+          26.544456
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 2,
+        "color": "#16a34a",
+        "carbonKg": 485.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709738,
+          26.552143
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 236.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713656,
+          26.547833
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "POOR",
+        "wardNumber": 2,
+        "color": "#dc2626",
+        "carbonKg": 166.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709508,
+          26.550296
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 2,
+        "color": "#14532d",
+        "carbonKg": 318.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712163,
+          26.544819
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 2,
+        "color": "#16a34a",
+        "carbonKg": 546.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716208,
+          26.551051
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 482.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722727,
+          26.545832
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "POOR",
+        "wardNumber": 3,
+        "color": "#dc2626",
+        "carbonKg": 441.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720431,
+          26.548431
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "POOR",
+        "wardNumber": 3,
+        "color": "#dc2626",
+        "carbonKg": 389.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.719046,
+          26.54808
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 236.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718638,
+          26.547525
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 344.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.7149,
+          26.550582
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "DEAD",
+        "wardNumber": 3,
+        "color": "#94a3b8",
+        "carbonKg": 660.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713253,
+          26.549661
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 605.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713223,
+          26.550197
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 423.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.714561,
+          26.546173
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "FAIR",
+        "wardNumber": 3,
+        "color": "#ca8a04",
+        "carbonKg": 612.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713685,
+          26.546403
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 114.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720686,
+          26.546767
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 3,
+        "color": "#16a34a",
+        "carbonKg": 528.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717898,
+          26.548502
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 3,
+        "color": "#16a34a",
+        "carbonKg": 268.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717247,
+          26.547531
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 369.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716887,
+          26.548697
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 3,
+        "color": "#16a34a",
+        "carbonKg": 786.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718689,
+          26.548173
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 703.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71841,
+          26.547946
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "FAIR",
+        "wardNumber": 3,
+        "color": "#ca8a04",
+        "carbonKg": 566.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717869,
+          26.549192
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 255.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718174,
+          26.55464
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 3,
+        "color": "#16a34a",
+        "carbonKg": 306.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717742,
+          26.547725
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 175.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718263,
+          26.547955
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 758.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715433,
+          26.551571
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 3,
+        "color": "#ca8a04",
+        "carbonKg": 462.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718888,
+          26.547494
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 72.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717686,
+          26.551536
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 3,
+        "color": "#16a34a",
+        "carbonKg": 380.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716407,
+          26.549161
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 3,
+        "color": "#14532d",
+        "carbonKg": 690.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.7172,
+          26.547052
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "FAIR",
+        "wardNumber": 3,
+        "color": "#ca8a04",
+        "carbonKg": 308.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.719656,
+          26.546208
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "DEAD",
+        "wardNumber": 4,
+        "color": "#94a3b8",
+        "carbonKg": 619.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721094,
+          26.548572
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "FAIR",
+        "wardNumber": 4,
+        "color": "#ca8a04",
+        "carbonKg": 768.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72112,
+          26.54678
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 48.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727295,
+          26.54532
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 274.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725536,
+          26.543779
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 4,
+        "color": "#16a34a",
+        "carbonKg": 770.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720764,
+          26.549642
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 4,
+        "color": "#16a34a",
+        "carbonKg": 421.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716586,
+          26.542672
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "POOR",
+        "wardNumber": 4,
+        "color": "#dc2626",
+        "carbonKg": 96.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720208,
+          26.547227
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 4,
+        "color": "#16a34a",
+        "carbonKg": 509.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722131,
+          26.546217
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 473.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72054,
+          26.546592
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 757.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721889,
+          26.546169
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 549.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727442,
+          26.544769
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 4,
+        "color": "#16a34a",
+        "carbonKg": 288.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723436,
+          26.547598
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 4,
+        "color": "#16a34a",
+        "carbonKg": 547.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728345,
+          26.547243
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 4,
+        "color": "#16a34a",
+        "carbonKg": 722.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728263,
+          26.54832
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "POOR",
+        "wardNumber": 4,
+        "color": "#dc2626",
+        "carbonKg": 260.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718349,
+          26.544133
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 412.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721544,
+          26.540326
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 700.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721491,
+          26.549224
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 523.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721196,
+          26.540093
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 61.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726289,
+          26.543684
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "FAIR",
+        "wardNumber": 4,
+        "color": "#ca8a04",
+        "carbonKg": 445.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721676,
+          26.545974
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 60.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720442,
+          26.545104
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 545.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71843,
+          26.54621
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "FAIR",
+        "wardNumber": 4,
+        "color": "#ca8a04",
+        "carbonKg": 168.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718728,
+          26.549677
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 4,
+        "color": "#16a34a",
+        "carbonKg": 333.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.719046,
+          26.551084
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 4,
+        "color": "#14532d",
+        "carbonKg": 181.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725532,
+          26.541144
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "DEAD",
+        "wardNumber": 5,
+        "color": "#94a3b8",
+        "carbonKg": 143.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726666,
+          26.548434
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "POOR",
+        "wardNumber": 5,
+        "color": "#dc2626",
+        "carbonKg": 130.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727582,
+          26.541918
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 5,
+        "color": "#14532d",
+        "carbonKg": 795.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728131,
+          26.545338
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "FAIR",
+        "wardNumber": 5,
+        "color": "#ca8a04",
+        "carbonKg": 541.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723734,
+          26.537705
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "FAIR",
+        "wardNumber": 5,
+        "color": "#ca8a04",
+        "carbonKg": 747.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727346,
+          26.545141
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 674.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727937,
+          26.546563
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 5,
+        "color": "#14532d",
+        "carbonKg": 241.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.731566,
+          26.541867
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "FAIR",
+        "wardNumber": 5,
+        "color": "#ca8a04",
+        "carbonKg": 299.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727701,
+          26.542757
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "POOR",
+        "wardNumber": 5,
+        "color": "#dc2626",
+        "carbonKg": 296.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726743,
+          26.543075
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 591.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723966,
+          26.543011
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 148.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72217,
+          26.545248
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 223.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726614,
+          26.544149
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 5,
+        "color": "#14532d",
+        "carbonKg": 170.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725396,
+          26.547003
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 549.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727359,
+          26.54577
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 442.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720109,
+          26.545175
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 5,
+        "color": "#14532d",
+        "carbonKg": 37.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723267,
+          26.542383
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 232.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720014,
+          26.547875
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "POOR",
+        "wardNumber": 5,
+        "color": "#dc2626",
+        "carbonKg": 385.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726132,
+          26.545867
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 5,
+        "color": "#14532d",
+        "carbonKg": 406.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.724828,
+          26.544175
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "FAIR",
+        "wardNumber": 5,
+        "color": "#ca8a04",
+        "carbonKg": 442.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721462,
+          26.548187
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "POOR",
+        "wardNumber": 5,
+        "color": "#dc2626",
+        "carbonKg": 725.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.724928,
+          26.542734
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 180.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.724433,
+          26.540197
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "DEAD",
+        "wardNumber": 5,
+        "color": "#94a3b8",
+        "carbonKg": 579.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726906,
+          26.544487
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 377.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728883,
+          26.544882
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 5,
+        "color": "#16a34a",
+        "carbonKg": 96.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722488,
+          26.543403
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 444.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730731,
+          26.541614
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 513.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.731796,
+          26.541096
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 23.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729308,
+          26.545064
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 594.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72911,
+          26.546886
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 302.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730392,
+          26.540081
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 519.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.73473,
+          26.54578
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 415.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730959,
+          26.538314
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 771.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727804,
+          26.539651
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 700.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730659,
+          26.542592
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "POOR",
+        "wardNumber": 6,
+        "color": "#dc2626",
+        "carbonKg": 448.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728993,
+          26.541608
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 302.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730038,
+          26.537347
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 6,
+        "color": "#ca8a04",
+        "carbonKg": 601.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723417,
+          26.542777
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 91.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729988,
+          26.542006
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 464.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723386,
+          26.544836
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 260.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729335,
+          26.544825
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 733.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733182,
+          26.542386
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 775.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729555,
+          26.543268
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 452.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72956,
+          26.542557
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 458.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.724359,
+          26.542875
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 328.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.736721,
+          26.539826
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 418.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.732911,
+          26.547621
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 6,
+        "color": "#14532d",
+        "carbonKg": 743.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728437,
+          26.542131
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 6,
+        "color": "#16a34a",
+        "carbonKg": 387.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730336,
+          26.548425
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "FAIR",
+        "wardNumber": 6,
+        "color": "#ca8a04",
+        "carbonKg": 356.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729698,
+          26.542089
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "FAIR",
+        "wardNumber": 6,
+        "color": "#ca8a04",
+        "carbonKg": 621.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.738929,
+          26.539732
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 787.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734063,
+          26.53905
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 457.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.735856,
+          26.537589
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 363.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734779,
+          26.54122
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 105.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.739891,
+          26.54024
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "FAIR",
+        "wardNumber": 7,
+        "color": "#ca8a04",
+        "carbonKg": 548.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.732923,
+          26.534194
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 721.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.732783,
+          26.539691
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 562.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.741138,
+          26.538042
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 20.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.732048,
+          26.540282
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 394.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.736823,
+          26.5375
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 505.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.73199,
+          26.543043
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 779.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.732497,
+          26.538388
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 107.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733234,
+          26.544436
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 245.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.73514,
+          26.537546
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 601.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729668,
+          26.541569
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 27.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734943,
+          26.539446
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 223.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.737558,
+          26.53612
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 551.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.740232,
+          26.541233
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 393.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.738076,
+          26.535497
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 43.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733855,
+          26.539925
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 185.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733038,
+          26.536912
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 302.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733951,
+          26.540443
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "FAIR",
+        "wardNumber": 7,
+        "color": "#ca8a04",
+        "carbonKg": 80.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729314,
+          26.541048
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 7,
+        "color": "#14532d",
+        "carbonKg": 327.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733818,
+          26.539884
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 176.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733132,
+          26.539045
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 7,
+        "color": "#16a34a",
+        "carbonKg": 335.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729516,
+          26.534864
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 405.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726529,
+          26.538298
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 558.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72761,
+          26.539426
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 211.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730398,
+          26.538373
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 595.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725087,
+          26.536745
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "FAIR",
+        "wardNumber": 8,
+        "color": "#ca8a04",
+        "carbonKg": 291.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727196,
+          26.537906
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 667.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72574,
+          26.54011
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 273.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726119,
+          26.532499
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "POOR",
+        "wardNumber": 8,
+        "color": "#dc2626",
+        "carbonKg": 375.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728459,
+          26.538225
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 438.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730642,
+          26.534091
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 479.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725182,
+          26.536567
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 677.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726882,
+          26.537255
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 348.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728802,
+          26.538982
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 137.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727399,
+          26.537629
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 108.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726797,
+          26.536994
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 589.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734181,
+          26.53973
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 90.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720754,
+          26.535912
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 632.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729473,
+          26.53588
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 532.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728373,
+          26.537808
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 159.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727717,
+          26.531231
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 527.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729253,
+          26.541619
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "FAIR",
+        "wardNumber": 8,
+        "color": "#ca8a04",
+        "carbonKg": 29.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729912,
+          26.538109
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 8,
+        "color": "#14532d",
+        "carbonKg": 203.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72769,
+          26.544585
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 236.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723121,
+          26.541721
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 568.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728865,
+          26.533006
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 8,
+        "color": "#16a34a",
+        "carbonKg": 384.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716794,
+          26.537481
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 137.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.724274,
+          26.532154
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 209.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722859,
+          26.533798
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 760.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71875,
+          26.535369
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 445.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720489,
+          26.534995
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 617.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725813,
+          26.538077
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 411.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722244,
+          26.533137
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 663.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716211,
+          26.53149
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 320.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.719146,
+          26.534055
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 758.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72501,
+          26.539893
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "POOR",
+        "wardNumber": 9,
+        "color": "#dc2626",
+        "carbonKg": 489.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718541,
+          26.533391
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "POOR",
+        "wardNumber": 9,
+        "color": "#dc2626",
+        "carbonKg": 424.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717799,
+          26.531476
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "DEAD",
+        "wardNumber": 9,
+        "color": "#94a3b8",
+        "carbonKg": 514.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72537,
+          26.530434
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 27.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.7193,
+          26.536523
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 780.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717124,
+          26.53839
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 691.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71462,
+          26.533763
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 327.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721281,
+          26.536098
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 501.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720384,
+          26.537283
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 127.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721525,
+          26.536677
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "FAIR",
+        "wardNumber": 9,
+        "color": "#ca8a04",
+        "carbonKg": 280.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.714956,
+          26.538356
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 243.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720474,
+          26.529524
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 771.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722615,
+          26.537738
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 705.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.714538,
+          26.539619
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 730.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.719556,
+          26.531951
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 9,
+        "color": "#14532d",
+        "carbonKg": 94.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723925,
+          26.53993
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 9,
+        "color": "#16a34a",
+        "carbonKg": 720.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715757,
+          26.535081
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 10,
+        "color": "#16a34a",
+        "carbonKg": 481.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717015,
+          26.537545
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "POOR",
+        "wardNumber": 10,
+        "color": "#dc2626",
+        "carbonKg": 174.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715296,
+          26.535651
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 584.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712452,
+          26.533263
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 332.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711689,
+          26.535963
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 10,
+        "color": "#ca8a04",
+        "carbonKg": 383.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71675,
+          26.534804
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 10,
+        "color": "#16a34a",
+        "carbonKg": 164.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71279,
+          26.531871
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 702.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71067,
+          26.538533
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "FAIR",
+        "wardNumber": 10,
+        "color": "#ca8a04",
+        "carbonKg": 146.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720325,
+          26.531518
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 10,
+        "color": "#ca8a04",
+        "carbonKg": 74.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710664,
+          26.536872
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "FAIR",
+        "wardNumber": 10,
+        "color": "#ca8a04",
+        "carbonKg": 481.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716194,
+          26.537532
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "POOR",
+        "wardNumber": 10,
+        "color": "#dc2626",
+        "carbonKg": 379.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712904,
+          26.533055
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 181.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.7131,
+          26.533653
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 10,
+        "color": "#16a34a",
+        "carbonKg": 147.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71406,
+          26.53091
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 718.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71444,
+          26.533317
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 53.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708889,
+          26.535782
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 10,
+        "color": "#ca8a04",
+        "carbonKg": 164.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712133,
+          26.533518
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 10,
+        "color": "#16a34a",
+        "carbonKg": 649.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716939,
+          26.535177
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "POOR",
+        "wardNumber": 10,
+        "color": "#dc2626",
+        "carbonKg": 661.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713111,
+          26.533293
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 161.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718736,
+          26.533769
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 10,
+        "color": "#16a34a",
+        "carbonKg": 392.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715516,
+          26.535756
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 360.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.714567,
+          26.539935
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "POOR",
+        "wardNumber": 10,
+        "color": "#dc2626",
+        "carbonKg": 521.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709369,
+          26.529806
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "FAIR",
+        "wardNumber": 10,
+        "color": "#ca8a04",
+        "carbonKg": 553.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712958,
+          26.534347
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 10,
+        "color": "#16a34a",
+        "carbonKg": 122.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715589,
+          26.534897
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 10,
+        "color": "#14532d",
+        "carbonKg": 253.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708998,
+          26.531991
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 11,
+        "color": "#16a34a",
+        "carbonKg": 445.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716205,
+          26.531227
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 11,
+        "color": "#14532d",
+        "carbonKg": 599.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710543,
+          26.534998
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "DEAD",
+        "wardNumber": 11,
+        "color": "#94a3b8",
+        "carbonKg": 266.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706855,
+          26.531032
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "FAIR",
+        "wardNumber": 11,
+        "color": "#ca8a04",
+        "carbonKg": 604.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70858,
+          26.531637
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "FAIR",
+        "wardNumber": 11,
+        "color": "#ca8a04",
+        "carbonKg": 522.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71037,
+          26.532216
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "POOR",
+        "wardNumber": 11,
+        "color": "#dc2626",
+        "carbonKg": 204.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713339,
+          26.531446
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 11,
+        "color": "#16a34a",
+        "carbonKg": 319.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707663,
+          26.535943
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 11,
+        "color": "#16a34a",
+        "carbonKg": 386.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707408,
+          26.537447
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 11,
+        "color": "#14532d",
+        "carbonKg": 783.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711725,
+          26.533959
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 11,
+        "color": "#16a34a",
+        "carbonKg": 314.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710227,
+          26.525724
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 11,
+        "color": "#16a34a",
+        "carbonKg": 56.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.702947,
+          26.536012
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "FAIR",
+        "wardNumber": 11,
+        "color": "#ca8a04",
+        "carbonKg": 395.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711627,
+          26.532727
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "POOR",
+        "wardNumber": 11,
+        "color": "#dc2626",
+        "carbonKg": 787.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703628,
+          26.534248
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 11,
+        "color": "#14532d",
+        "carbonKg": 794.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708204,
+          26.532566
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "FAIR",
+        "wardNumber": 11,
+        "color": "#ca8a04",
+        "carbonKg": 632.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712311,
+          26.532279
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "FAIR",
+        "wardNumber": 11,
+        "color": "#ca8a04",
+        "carbonKg": 283.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704434,
+          26.536469
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 11,
+        "color": "#16a34a",
+        "carbonKg": 106.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70621,
+          26.537183
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 11,
+        "color": "#14532d",
+        "carbonKg": 213.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712249,
+          26.531445
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "FAIR",
+        "wardNumber": 11,
+        "color": "#ca8a04",
+        "carbonKg": 207.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707546,
+          26.528103
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 11,
+        "color": "#14532d",
+        "carbonKg": 387.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708138,
+          26.52977
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "DEAD",
+        "wardNumber": 11,
+        "color": "#94a3b8",
+        "carbonKg": 343.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712931,
+          26.53657
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 11,
+        "color": "#16a34a",
+        "carbonKg": 239.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708684,
+          26.53205
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "POOR",
+        "wardNumber": 11,
+        "color": "#dc2626",
+        "carbonKg": 415.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708406,
+          26.530903
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 11,
+        "color": "#ca8a04",
+        "carbonKg": 331.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706563,
+          26.53304
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 11,
+        "color": "#14532d",
+        "carbonKg": 488.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.702523,
+          26.532402
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 604.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700728,
+          26.525107
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 151.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70996,
+          26.532619
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 12,
+        "color": "#16a34a",
+        "carbonKg": 455.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699074,
+          26.53347
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "POOR",
+        "wardNumber": 12,
+        "color": "#dc2626",
+        "carbonKg": 675.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708973,
+          26.528955
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 12,
+        "color": "#16a34a",
+        "carbonKg": 578.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703174,
+          26.530085
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "POOR",
+        "wardNumber": 12,
+        "color": "#dc2626",
+        "carbonKg": 141.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703305,
+          26.5286
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 230.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705965,
+          26.52765
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 93.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707453,
+          26.531094
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 710.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703577,
+          26.53009
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 12,
+        "color": "#16a34a",
+        "carbonKg": 728.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703005,
+          26.530142
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 296.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704089,
+          26.529357
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "FAIR",
+        "wardNumber": 12,
+        "color": "#ca8a04",
+        "carbonKg": 407.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70098,
+          26.532731
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 348.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699896,
+          26.534442
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "POOR",
+        "wardNumber": 12,
+        "color": "#dc2626",
+        "carbonKg": 378.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699311,
+          26.530709
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 167.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701811,
+          26.525038
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 12,
+        "color": "#16a34a",
+        "carbonKg": 152.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70477,
+          26.526856
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 12,
+        "color": "#16a34a",
+        "carbonKg": 325.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69947,
+          26.533456
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "DEAD",
+        "wardNumber": 12,
+        "color": "#94a3b8",
+        "carbonKg": 204.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704648,
+          26.524982
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 211.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.702582,
+          26.529839
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 12,
+        "color": "#ca8a04",
+        "carbonKg": 674.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703594,
+          26.532479
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "DEAD",
+        "wardNumber": 12,
+        "color": "#94a3b8",
+        "carbonKg": 288.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701919,
+          26.529621
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 12,
+        "color": "#16a34a",
+        "carbonKg": 702.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.702977,
+          26.53109
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 12,
+        "color": "#14532d",
+        "carbonKg": 774.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701716,
+          26.529985
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 12,
+        "color": "#16a34a",
+        "carbonKg": 413.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699654,
+          26.533222
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 12,
+        "color": "#16a34a",
+        "carbonKg": 51.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697864,
+          26.536321
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "FAIR",
+        "wardNumber": 13,
+        "color": "#ca8a04",
+        "carbonKg": 86.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699423,
+          26.53433
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "DEAD",
+        "wardNumber": 13,
+        "color": "#94a3b8",
+        "carbonKg": 584.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700489,
+          26.541905
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 13,
+        "color": "#16a34a",
+        "carbonKg": 213.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695392,
+          26.536082
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 609.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699366,
+          26.53574
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 347.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.696123,
+          26.538458
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 701.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697995,
+          26.535515
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 13,
+        "color": "#16a34a",
+        "carbonKg": 548.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697284,
+          26.530792
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 64.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.691466,
+          26.537653
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 360.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697786,
+          26.536451
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 649.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.696997,
+          26.536684
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 502.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697665,
+          26.53549
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 418.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699988,
+          26.537059
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "POOR",
+        "wardNumber": 13,
+        "color": "#dc2626",
+        "carbonKg": 756.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697867,
+          26.534988
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 13,
+        "color": "#16a34a",
+        "carbonKg": 593.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697956,
+          26.537634
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 13,
+        "color": "#16a34a",
+        "carbonKg": 241.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704719,
+          26.537095
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 767.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694621,
+          26.538499
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 444.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700278,
+          26.533729
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "FAIR",
+        "wardNumber": 13,
+        "color": "#ca8a04",
+        "carbonKg": 529.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695146,
+          26.534408
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 713.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697854,
+          26.537601
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "POOR",
+        "wardNumber": 13,
+        "color": "#dc2626",
+        "carbonKg": 433.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697701,
+          26.53503
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 13,
+        "color": "#14532d",
+        "carbonKg": 242.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700434,
+          26.536571
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 13,
+        "color": "#16a34a",
+        "carbonKg": 248.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694503,
+          26.537616
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 13,
+        "color": "#16a34a",
+        "carbonKg": 101.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700247,
+          26.538245
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 13,
+        "color": "#16a34a",
+        "carbonKg": 330.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699512,
+          26.536126
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 13,
+        "color": "#16a34a",
+        "carbonKg": 695.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.692077,
+          26.537185
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 186.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694679,
+          26.53809
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 697.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694199,
+          26.540181
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 544.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695971,
+          26.545222
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 339.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695001,
+          26.53944
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 27.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.702426,
+          26.538944
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "POOR",
+        "wardNumber": 14,
+        "color": "#dc2626",
+        "carbonKg": 287.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694483,
+          26.544766
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 253.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695101,
+          26.539909
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 797.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.696094,
+          26.535178
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 654.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694311,
+          26.540086
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 645.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69737,
+          26.540398
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 574.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69068,
+          26.541678
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 422.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695001,
+          26.540003
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 379.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.692706,
+          26.53833
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "FAIR",
+        "wardNumber": 14,
+        "color": "#ca8a04",
+        "carbonKg": 334.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69564,
+          26.539383
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 273.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.691605,
+          26.539443
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "POOR",
+        "wardNumber": 14,
+        "color": "#dc2626",
+        "carbonKg": 255.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695235,
+          26.54089
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 607.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694458,
+          26.541653
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 172.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69146,
+          26.545291
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 538.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700217,
+          26.53762
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 597.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694531,
+          26.543323
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 611.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.687345,
+          26.539026
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 312.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697937,
+          26.538968
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 267.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.696785,
+          26.539998
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 14,
+        "color": "#14532d",
+        "carbonKg": 345.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69502,
+          26.53818
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 14,
+        "color": "#16a34a",
+        "carbonKg": 597.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701555,
+          26.547598
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 271.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.698325,
+          26.544467
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 28.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704617,
+          26.546677
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 187.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69875,
+          26.54253
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "FAIR",
+        "wardNumber": 15,
+        "color": "#ca8a04",
+        "carbonKg": 732.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699471,
+          26.543552
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 193.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703198,
+          26.548654
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 156.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70048,
+          26.549396
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 551.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699807,
+          26.545509
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 770.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697034,
+          26.549205
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 283.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.691419,
+          26.542874
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 584.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697678,
+          26.537643
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 633.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703909,
+          26.540222
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 299.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699101,
+          26.545503
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 773.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70193,
+          26.538395
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 105.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694191,
+          26.541412
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 66.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69915,
+          26.546645
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 532.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694799,
+          26.546139
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 399.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704266,
+          26.541325
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 243.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706264,
+          26.544475
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 439.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.698953,
+          26.544837
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 729.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697348,
+          26.540658
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 752.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704835,
+          26.54139
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 469.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706475,
+          26.542763
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 15,
+        "color": "#16a34a",
+        "carbonKg": 98.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701821,
+          26.542119
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "POOR",
+        "wardNumber": 15,
+        "color": "#dc2626",
+        "carbonKg": 152.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.698516,
+          26.544205
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 15,
+        "color": "#14532d",
+        "carbonKg": 234.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701887,
+          26.546644
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 16,
+        "color": "#16a34a",
+        "carbonKg": 136.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700739,
+          26.55229
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 40.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706172,
+          26.547369
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "FAIR",
+        "wardNumber": 16,
+        "color": "#ca8a04",
+        "carbonKg": 229.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704999,
+          26.545878
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 346.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.696701,
+          26.546714
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 16,
+        "color": "#16a34a",
+        "carbonKg": 256.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697044,
+          26.553236
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 711.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703602,
+          26.546569
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 16,
+        "color": "#16a34a",
+        "carbonKg": 437.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701426,
+          26.548817
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 194.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704439,
+          26.548996
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 168.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707559,
+          26.548613
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "FAIR",
+        "wardNumber": 16,
+        "color": "#ca8a04",
+        "carbonKg": 328.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699154,
+          26.553849
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 548.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706876,
+          26.549331
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 339.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705896,
+          26.549608
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 388.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.697338,
+          26.544638
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "FAIR",
+        "wardNumber": 16,
+        "color": "#ca8a04",
+        "carbonKg": 350.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.698685,
+          26.547408
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 16,
+        "color": "#16a34a",
+        "carbonKg": 657.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699753,
+          26.543611
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 108.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708919,
+          26.549056
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 16,
+        "color": "#16a34a",
+        "carbonKg": 527.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703479,
+          26.54857
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "FAIR",
+        "wardNumber": 16,
+        "color": "#ca8a04",
+        "carbonKg": 292.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701095,
+          26.548592
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 16,
+        "color": "#16a34a",
+        "carbonKg": 474.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700918,
+          26.54934
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 16,
+        "color": "#16a34a",
+        "carbonKg": 621.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707595,
+          26.547273
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 16,
+        "color": "#14532d",
+        "carbonKg": 27.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695777,
+          26.546378
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "FAIR",
+        "wardNumber": 16,
+        "color": "#ca8a04",
+        "carbonKg": 436.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701738,
+          26.550554
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "FAIR",
+        "wardNumber": 16,
+        "color": "#ca8a04",
+        "carbonKg": 208.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.694661,
+          26.548158
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 16,
+        "color": "#ca8a04",
+        "carbonKg": 559.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695747,
+          26.551263
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 16,
+        "color": "#16a34a",
+        "carbonKg": 52.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717536,
+          26.547782
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 17,
+        "color": "#16a34a",
+        "carbonKg": 214.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711677,
+          26.550438
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 340.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710909,
+          26.555653
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 505.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710863,
+          26.555286
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "DEAD",
+        "wardNumber": 17,
+        "color": "#94a3b8",
+        "carbonKg": 190.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711876,
+          26.551911
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "FAIR",
+        "wardNumber": 17,
+        "color": "#ca8a04",
+        "carbonKg": 477.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705554,
+          26.553918
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 17,
+        "color": "#16a34a",
+        "carbonKg": 725.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712699,
+          26.552326
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 17,
+        "color": "#16a34a",
+        "carbonKg": 231.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705951,
+          26.556006
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 583.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711531,
+          26.554451
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "POOR",
+        "wardNumber": 17,
+        "color": "#dc2626",
+        "carbonKg": 582.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.707727,
+          26.548462
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 582.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709978,
+          26.55383
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 412.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712694,
+          26.549605
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 150.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712496,
+          26.550852
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 161.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711706,
+          26.549255
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 17,
+        "color": "#ca8a04",
+        "carbonKg": 277.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711994,
+          26.552023
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 574.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712771,
+          26.552239
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 17,
+        "color": "#16a34a",
+        "carbonKg": 655.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713035,
+          26.550564
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 644.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711169,
+          26.551786
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 467.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706819,
+          26.55664
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 17,
+        "color": "#16a34a",
+        "carbonKg": 293.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715507,
+          26.554869
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 619.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709675,
+          26.554206
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "FAIR",
+        "wardNumber": 17,
+        "color": "#ca8a04",
+        "carbonKg": 745.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713244,
+          26.553015
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 17,
+        "color": "#16a34a",
+        "carbonKg": 665.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709285,
+          26.551781
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "FAIR",
+        "wardNumber": 17,
+        "color": "#ca8a04",
+        "carbonKg": 311.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712601,
+          26.551942
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 17,
+        "color": "#14532d",
+        "carbonKg": 616.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711129,
+          26.552077
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "FAIR",
+        "wardNumber": 17,
+        "color": "#ca8a04",
+        "carbonKg": 385.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711648,
+          26.559973
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 545.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716093,
+          26.561988
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 525.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717677,
+          26.552989
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 208.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716253,
+          26.554161
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "POOR",
+        "wardNumber": 18,
+        "color": "#dc2626",
+        "carbonKg": 377.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71798,
+          26.5561
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 296.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721446,
+          26.560891
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 591.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717769,
+          26.55543
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 111.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.7124,
+          26.559594
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 629.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.714133,
+          26.561467
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 427.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710547,
+          26.555026
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 681.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717905,
+          26.556078
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 650.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.719182,
+          26.56206
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 228.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721779,
+          26.560467
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 351.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718596,
+          26.553285
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 256.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.7222,
+          26.561657
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 124.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713395,
+          26.552144
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "POOR",
+        "wardNumber": 18,
+        "color": "#dc2626",
+        "carbonKg": 469.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71221,
+          26.555963
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 542.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712,
+          26.560423
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 485.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718392,
+          26.557546
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "POOR",
+        "wardNumber": 18,
+        "color": "#dc2626",
+        "carbonKg": 297.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720562,
+          26.559726
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "FAIR",
+        "wardNumber": 18,
+        "color": "#ca8a04",
+        "carbonKg": 109.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722762,
+          26.560707
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 49.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716025,
+          26.553667
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 18,
+        "color": "#16a34a",
+        "carbonKg": 559.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.715734,
+          26.557097
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "FAIR",
+        "wardNumber": 18,
+        "color": "#ca8a04",
+        "carbonKg": 129.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712938,
+          26.556079
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 18,
+        "color": "#ca8a04",
+        "carbonKg": 42.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.714822,
+          26.550452
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 18,
+        "color": "#14532d",
+        "carbonKg": 82.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733267,
+          26.545314
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "POOR",
+        "wardNumber": 19,
+        "color": "#dc2626",
+        "carbonKg": 769.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725252,
+          26.551302
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "GOOD",
+        "wardNumber": 19,
+        "color": "#16a34a",
+        "carbonKg": 705.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723255,
+          26.55141
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 693.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734313,
+          26.550167
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 506.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725102,
+          26.550684
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "FAIR",
+        "wardNumber": 19,
+        "color": "#ca8a04",
+        "carbonKg": 329.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72828,
+          26.549898
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 726.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730921,
+          26.551175
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 19,
+        "color": "#16a34a",
+        "carbonKg": 525.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728019,
+          26.549884
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 19,
+        "color": "#16a34a",
+        "carbonKg": 743.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727952,
+          26.549568
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 19,
+        "color": "#16a34a",
+        "carbonKg": 779.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727313,
+          26.549447
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 640.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728015,
+          26.549758
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 373.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.731251,
+          26.550809
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "DEAD",
+        "wardNumber": 19,
+        "color": "#94a3b8",
+        "carbonKg": 724.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729641,
+          26.550054
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 19,
+        "color": "#16a34a",
+        "carbonKg": 773.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.731092,
+          26.550347
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 256.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728158,
+          26.551804
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 19,
+        "color": "#16a34a",
+        "carbonKg": 22.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.732619,
+          26.550867
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 619.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730155,
+          26.553151
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 170.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728455,
+          26.545572
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 330.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726602,
+          26.553348
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 19,
+        "color": "#16a34a",
+        "carbonKg": 789.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733113,
+          26.545485
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 798.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728171,
+          26.550964
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 92.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722648,
+          26.546191
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "POOR",
+        "wardNumber": 19,
+        "color": "#dc2626",
+        "carbonKg": 702.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727434,
+          26.549218
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 19,
+        "color": "#14532d",
+        "carbonKg": 269.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723383,
+          26.5465
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "GOOD",
+        "wardNumber": 19,
+        "color": "#16a34a",
+        "carbonKg": 316.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726591,
+          26.554034
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "FAIR",
+        "wardNumber": 19,
+        "color": "#ca8a04",
+        "carbonKg": 316.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.742251,
+          26.548933
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 733.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.742761,
+          26.548412
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "FAIR",
+        "wardNumber": 20,
+        "color": "#ca8a04",
+        "carbonKg": 764.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.738659,
+          26.545309
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 746.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.741216,
+          26.541956
+        ]
+      },
+      "properties": {
+        "species": "Mango",
+        "healthStatus": "GOOD",
+        "wardNumber": 20,
+        "color": "#16a34a",
+        "carbonKg": 190.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.737595,
+          26.545831
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 212.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733638,
+          26.547747
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "GOOD",
+        "wardNumber": 20,
+        "color": "#16a34a",
+        "carbonKg": 611.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.739456,
+          26.552381
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 20,
+        "color": "#16a34a",
+        "carbonKg": 462.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.738036,
+          26.542598
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "POOR",
+        "wardNumber": 20,
+        "color": "#dc2626",
+        "carbonKg": 533.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.74029,
+          26.540692
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "GOOD",
+        "wardNumber": 20,
+        "color": "#16a34a",
+        "carbonKg": 446.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.739673,
+          26.540835
+        ]
+      },
+      "properties": {
+        "species": "Rain Tree",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 190.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.744769,
+          26.547816
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "GOOD",
+        "wardNumber": 20,
+        "color": "#16a34a",
+        "carbonKg": 155.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.740254,
+          26.545039
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 317.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.73794,
+          26.546405
+        ]
+      },
+      "properties": {
+        "species": "Gulmohar",
+        "healthStatus": "FAIR",
+        "wardNumber": 20,
+        "color": "#ca8a04",
+        "carbonKg": 672.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.738636,
+          26.54584
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "POOR",
+        "wardNumber": 20,
+        "color": "#dc2626",
+        "carbonKg": 172.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734404,
+          26.543657
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "POOR",
+        "wardNumber": 20,
+        "color": "#dc2626",
+        "carbonKg": 303.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.740297,
+          26.544548
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 352.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.739349,
+          26.544989
+        ]
+      },
+      "properties": {
+        "species": "Teak",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 709.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.735335,
+          26.542433
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "GOOD",
+        "wardNumber": 20,
+        "color": "#16a34a",
+        "carbonKg": 539.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.733406,
+          26.547169
+        ]
+      },
+      "properties": {
+        "species": "Neem",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 750.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.736509,
+          26.546422
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 798.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.731515,
+          26.543405
+        ]
+      },
+      "properties": {
+        "species": "Peepal",
+        "healthStatus": "GOOD",
+        "wardNumber": 20,
+        "color": "#16a34a",
+        "carbonKg": 364.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.740152,
+          26.546697
+        ]
+      },
+      "properties": {
+        "species": "Jackfruit",
+        "healthStatus": "GOOD",
+        "wardNumber": 20,
+        "color": "#16a34a",
+        "carbonKg": 85.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.739461,
+          26.545989
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "DEAD",
+        "wardNumber": 20,
+        "color": "#94a3b8",
+        "carbonKg": 385.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.7315,
+          26.548215
+        ]
+      },
+      "properties": {
+        "species": "Eucalyptus",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 270.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.739587,
+          26.54655
+        ]
+      },
+      "properties": {
+        "species": "Banyan",
+        "healthStatus": "EXCELLENT",
+        "wardNumber": 20,
+        "color": "#14532d",
+        "carbonKg": 109.8
+      }
+    }
+  ]
+}

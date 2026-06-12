@@ -1,0 +1,925 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706498,
+          26.551916
+        ]
+      },
+      "properties": {
+        "id": "WS-W01-P1",
+        "sensorCode": "WS-W01-P1",
+        "pipeCode": "WP-W01-01",
+        "wardName": "Kadamtala",
+        "wardNumber": 1,
+        "pressureBar": 3.04,
+        "flowLpm": 65.0,
+        "leakProbability": 0.157,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704532,
+          26.5501
+        ]
+      },
+      "properties": {
+        "id": "WS-W01-P2",
+        "sensorCode": "WS-W01-P2",
+        "pipeCode": "WP-W01-02",
+        "wardName": "Kadamtala",
+        "wardNumber": 1,
+        "pressureBar": 2.59,
+        "flowLpm": 100.6,
+        "leakProbability": 0.192,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710427,
+          26.552416
+        ]
+      },
+      "properties": {
+        "id": "WS-W02-P1",
+        "sensorCode": "WS-W02-P1",
+        "pipeCode": "WP-W02-01",
+        "wardName": "Deshbandhu Para",
+        "wardNumber": 2,
+        "pressureBar": 3.69,
+        "flowLpm": 97.3,
+        "leakProbability": 0.956,
+        "estimatedLossLph": 500.4,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710692,
+          26.548379
+        ]
+      },
+      "properties": {
+        "id": "WS-W02-P2",
+        "sensorCode": "WS-W02-P2",
+        "pipeCode": "WP-W02-02",
+        "wardName": "Deshbandhu Para",
+        "wardNumber": 2,
+        "pressureBar": 4.94,
+        "flowLpm": 118.9,
+        "leakProbability": 0.689,
+        "estimatedLossLph": 535.2,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717813,
+          26.549968
+        ]
+      },
+      "properties": {
+        "id": "WS-W03-P1",
+        "sensorCode": "WS-W03-P1",
+        "pipeCode": "WP-W03-01",
+        "wardName": "Rajbari",
+        "wardNumber": 3,
+        "pressureBar": 3.04,
+        "flowLpm": 100.5,
+        "leakProbability": 0.557,
+        "estimatedLossLph": 241.0,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716079,
+          26.548616
+        ]
+      },
+      "properties": {
+        "id": "WS-W03-P2",
+        "sensorCode": "WS-W03-P2",
+        "pipeCode": "WP-W03-02",
+        "wardName": "Rajbari",
+        "wardNumber": 3,
+        "pressureBar": 3.37,
+        "flowLpm": 107.5,
+        "leakProbability": 0.939,
+        "estimatedLossLph": 128.7,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.723524,
+          26.547106
+        ]
+      },
+      "properties": {
+        "id": "WS-W04-P1",
+        "sensorCode": "WS-W04-P1",
+        "pipeCode": "WP-W04-01",
+        "wardName": "Station Para",
+        "wardNumber": 4,
+        "pressureBar": 3.3,
+        "flowLpm": 61.3,
+        "leakProbability": 0.672,
+        "estimatedLossLph": 593.2,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720595,
+          26.543498
+        ]
+      },
+      "properties": {
+        "id": "WS-W04-P2",
+        "sensorCode": "WS-W04-P2",
+        "pipeCode": "WP-W04-02",
+        "wardName": "Station Para",
+        "wardNumber": 4,
+        "pressureBar": 3.28,
+        "flowLpm": 58.6,
+        "leakProbability": 0.845,
+        "estimatedLossLph": 652.2,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72728,
+          26.543233
+        ]
+      },
+      "properties": {
+        "id": "WS-W05-P1",
+        "sensorCode": "WS-W05-P1",
+        "pipeCode": "WP-W05-01",
+        "wardName": "Hospital Para",
+        "wardNumber": 5,
+        "pressureBar": 3.14,
+        "flowLpm": 32.8,
+        "leakProbability": 0.664,
+        "estimatedLossLph": 631.4,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727068,
+          26.544927
+        ]
+      },
+      "properties": {
+        "id": "WS-W05-P2",
+        "sensorCode": "WS-W05-P2",
+        "pipeCode": "WP-W05-02",
+        "wardName": "Hospital Para",
+        "wardNumber": 5,
+        "pressureBar": 2.09,
+        "flowLpm": 53.7,
+        "leakProbability": 0.149,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729799,
+          26.541017
+        ]
+      },
+      "properties": {
+        "id": "WS-W06-P1",
+        "sensorCode": "WS-W06-P1",
+        "pipeCode": "WP-W06-01",
+        "wardName": "Netaji Para",
+        "wardNumber": 6,
+        "pressureBar": 2.18,
+        "flowLpm": 75.0,
+        "leakProbability": 0.928,
+        "estimatedLossLph": 442.9,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727908,
+          26.541097
+        ]
+      },
+      "properties": {
+        "id": "WS-W06-P2",
+        "sensorCode": "WS-W06-P2",
+        "pipeCode": "WP-W06-02",
+        "wardName": "Netaji Para",
+        "wardNumber": 6,
+        "pressureBar": 2.04,
+        "flowLpm": 61.6,
+        "leakProbability": 0.16,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734286,
+          26.537901
+        ]
+      },
+      "properties": {
+        "id": "WS-W07-P1",
+        "sensorCode": "WS-W07-P1",
+        "pipeCode": "WP-W07-01",
+        "wardName": "Khagrabari",
+        "wardNumber": 7,
+        "pressureBar": 3.18,
+        "flowLpm": 45.5,
+        "leakProbability": 0.908,
+        "estimatedLossLph": 692.3,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734147,
+          26.539503
+        ]
+      },
+      "properties": {
+        "id": "WS-W07-P2",
+        "sensorCode": "WS-W07-P2",
+        "pipeCode": "WP-W07-02",
+        "wardName": "Khagrabari",
+        "wardNumber": 7,
+        "pressureBar": 3.29,
+        "flowLpm": 63.5,
+        "leakProbability": 0.088,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727644,
+          26.537798
+        ]
+      },
+      "properties": {
+        "id": "WS-W08-P1",
+        "sensorCode": "WS-W08-P1",
+        "pipeCode": "WP-W08-01",
+        "wardName": "Ananda Para",
+        "wardNumber": 8,
+        "pressureBar": 4.98,
+        "flowLpm": 82.5,
+        "leakProbability": 0.293,
+        "estimatedLossLph": 0,
+        "status": "ANOMALY",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.730093,
+          26.538477
+        ]
+      },
+      "properties": {
+        "id": "WS-W08-P2",
+        "sensorCode": "WS-W08-P2",
+        "pipeCode": "WP-W08-02",
+        "wardName": "Ananda Para",
+        "wardNumber": 8,
+        "pressureBar": 3.98,
+        "flowLpm": 75.6,
+        "leakProbability": 0.071,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721615,
+          26.536966
+        ]
+      },
+      "properties": {
+        "id": "WS-W09-P1",
+        "sensorCode": "WS-W09-P1",
+        "pipeCode": "WP-W09-01",
+        "wardName": "Dinbazar",
+        "wardNumber": 9,
+        "pressureBar": 2.83,
+        "flowLpm": 24.2,
+        "leakProbability": 0.187,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722586,
+          26.537643
+        ]
+      },
+      "properties": {
+        "id": "WS-W09-P2",
+        "sensorCode": "WS-W09-P2",
+        "pipeCode": "WP-W09-02",
+        "wardName": "Dinbazar",
+        "wardNumber": 9,
+        "pressureBar": 2.96,
+        "flowLpm": 94.8,
+        "leakProbability": 0.9,
+        "estimatedLossLph": 619.8,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713795,
+          26.533562
+        ]
+      },
+      "properties": {
+        "id": "WS-W10-P1",
+        "sensorCode": "WS-W10-P1",
+        "pipeCode": "WP-W10-01",
+        "wardName": "Kotwali",
+        "wardNumber": 10,
+        "pressureBar": 2.17,
+        "flowLpm": 97.6,
+        "leakProbability": 0.016,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716207,
+          26.535102
+        ]
+      },
+      "properties": {
+        "id": "WS-W10-P2",
+        "sensorCode": "WS-W10-P2",
+        "pipeCode": "WP-W10-02",
+        "wardName": "Kotwali",
+        "wardNumber": 10,
+        "pressureBar": 4.86,
+        "flowLpm": 35.9,
+        "leakProbability": 0.182,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.710691,
+          26.53327
+        ]
+      },
+      "properties": {
+        "id": "WS-W11-P1",
+        "sensorCode": "WS-W11-P1",
+        "pipeCode": "WP-W11-01",
+        "wardName": "Rajganj Road",
+        "wardNumber": 11,
+        "pressureBar": 3.24,
+        "flowLpm": 98.7,
+        "leakProbability": 0.178,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.708248,
+          26.530148
+        ]
+      },
+      "properties": {
+        "id": "WS-W11-P2",
+        "sensorCode": "WS-W11-P2",
+        "pipeCode": "WP-W11-02",
+        "wardName": "Rajganj Road",
+        "wardNumber": 11,
+        "pressureBar": 4.43,
+        "flowLpm": 58.9,
+        "leakProbability": 0.632,
+        "estimatedLossLph": 531.5,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705037,
+          26.528292
+        ]
+      },
+      "properties": {
+        "id": "WS-W12-P1",
+        "sensorCode": "WS-W12-P1",
+        "pipeCode": "WP-W12-01",
+        "wardName": "Malopara",
+        "wardNumber": 12,
+        "pressureBar": 3.42,
+        "flowLpm": 21.7,
+        "leakProbability": 0.681,
+        "estimatedLossLph": 123.6,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.702547,
+          26.528267
+        ]
+      },
+      "properties": {
+        "id": "WS-W12-P2",
+        "sensorCode": "WS-W12-P2",
+        "pipeCode": "WP-W12-02",
+        "wardName": "Malopara",
+        "wardNumber": 12,
+        "pressureBar": 2.04,
+        "flowLpm": 67.9,
+        "leakProbability": 0.646,
+        "estimatedLossLph": 494.1,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699284,
+          26.536715
+        ]
+      },
+      "properties": {
+        "id": "WS-W13-P1",
+        "sensorCode": "WS-W13-P1",
+        "pipeCode": "WP-W13-01",
+        "wardName": "Babu Para",
+        "wardNumber": 13,
+        "pressureBar": 2.82,
+        "flowLpm": 20.8,
+        "leakProbability": 0.251,
+        "estimatedLossLph": 0,
+        "status": "ANOMALY",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.696734,
+          26.535752
+        ]
+      },
+      "properties": {
+        "id": "WS-W13-P2",
+        "sensorCode": "WS-W13-P2",
+        "pipeCode": "WP-W13-02",
+        "wardName": "Babu Para",
+        "wardNumber": 13,
+        "pressureBar": 1.91,
+        "flowLpm": 74.7,
+        "leakProbability": 0.158,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.696593,
+          26.540755
+        ]
+      },
+      "properties": {
+        "id": "WS-W14-P1",
+        "sensorCode": "WS-W14-P1",
+        "pipeCode": "WP-W14-01",
+        "wardName": "Kamat Para",
+        "wardNumber": 14,
+        "pressureBar": 3.85,
+        "flowLpm": 25.4,
+        "leakProbability": 0.688,
+        "estimatedLossLph": 77.2,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695355,
+          26.543463
+        ]
+      },
+      "properties": {
+        "id": "WS-W14-P2",
+        "sensorCode": "WS-W14-P2",
+        "pipeCode": "WP-W14-02",
+        "wardName": "Kamat Para",
+        "wardNumber": 14,
+        "pressureBar": 3.28,
+        "flowLpm": 39.1,
+        "leakProbability": 0.839,
+        "estimatedLossLph": 783.8,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700309,
+          26.54551
+        ]
+      },
+      "properties": {
+        "id": "WS-W15-P1",
+        "sensorCode": "WS-W15-P1",
+        "pipeCode": "WP-W15-01",
+        "wardName": "Santosh Para",
+        "wardNumber": 15,
+        "pressureBar": 2.35,
+        "flowLpm": 58.3,
+        "leakProbability": 0.915,
+        "estimatedLossLph": 274.4,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699335,
+          26.543087
+        ]
+      },
+      "properties": {
+        "id": "WS-W15-P2",
+        "sensorCode": "WS-W15-P2",
+        "pipeCode": "WP-W15-02",
+        "wardName": "Santosh Para",
+        "wardNumber": 15,
+        "pressureBar": 4.1,
+        "flowLpm": 105.1,
+        "leakProbability": 0.889,
+        "estimatedLossLph": 335.5,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70338,
+          26.54688
+        ]
+      },
+      "properties": {
+        "id": "WS-W16-P1",
+        "sensorCode": "WS-W16-P1",
+        "pipeCode": "WP-W16-01",
+        "wardName": "Kachhari Para",
+        "wardNumber": 16,
+        "pressureBar": 3.16,
+        "flowLpm": 119.0,
+        "leakProbability": 0.179,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701121,
+          26.548209
+        ]
+      },
+      "properties": {
+        "id": "WS-W16-P2",
+        "sensorCode": "WS-W16-P2",
+        "pipeCode": "WP-W16-02",
+        "wardName": "Kachhari Para",
+        "wardNumber": 16,
+        "pressureBar": 3.41,
+        "flowLpm": 43.1,
+        "leakProbability": 0.038,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.712731,
+          26.552183
+        ]
+      },
+      "properties": {
+        "id": "WS-W17-P1",
+        "sensorCode": "WS-W17-P1",
+        "pipeCode": "WP-W17-01",
+        "wardName": "Titu Para",
+        "wardNumber": 17,
+        "pressureBar": 2.64,
+        "flowLpm": 62.8,
+        "leakProbability": 0.648,
+        "estimatedLossLph": 527.0,
+        "status": "LEAK_SUSPECTED",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71345,
+          26.550082
+        ]
+      },
+      "properties": {
+        "id": "WS-W17-P2",
+        "sensorCode": "WS-W17-P2",
+        "pipeCode": "WP-W17-02",
+        "wardName": "Titu Para",
+        "wardNumber": 17,
+        "pressureBar": 5.0,
+        "flowLpm": 62.5,
+        "leakProbability": 0.91,
+        "estimatedLossLph": 298.2,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718887,
+          26.554268
+        ]
+      },
+      "properties": {
+        "id": "WS-W18-P1",
+        "sensorCode": "WS-W18-P1",
+        "pipeCode": "WP-W18-01",
+        "wardName": "Bhagat Singh Colony",
+        "wardNumber": 18,
+        "pressureBar": 4.95,
+        "flowLpm": 82.7,
+        "leakProbability": 0.174,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720696,
+          26.555802
+        ]
+      },
+      "properties": {
+        "id": "WS-W18-P2",
+        "sensorCode": "WS-W18-P2",
+        "pipeCode": "WP-W18-02",
+        "wardName": "Bhagat Singh Colony",
+        "wardNumber": 18,
+        "pressureBar": 4.54,
+        "flowLpm": 61.4,
+        "leakProbability": 0.017,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.729298,
+          26.550761
+        ]
+      },
+      "properties": {
+        "id": "WS-W19-P1",
+        "sensorCode": "WS-W19-P1",
+        "pipeCode": "WP-W19-01",
+        "wardName": "Purba Jalpaiguri",
+        "wardNumber": 19,
+        "pressureBar": 3.22,
+        "flowLpm": 38.3,
+        "leakProbability": 0.779,
+        "estimatedLossLph": 505.1,
+        "status": "LEAK_CONFIRMED",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728748,
+          26.552364
+        ]
+      },
+      "properties": {
+        "id": "WS-W19-P2",
+        "sensorCode": "WS-W19-P2",
+        "pipeCode": "WP-W19-02",
+        "wardName": "Purba Jalpaiguri",
+        "wardNumber": 19,
+        "pressureBar": 4.9,
+        "flowLpm": 63.6,
+        "leakProbability": 0.219,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.737352,
+          26.546777
+        ]
+      },
+      "properties": {
+        "id": "WS-W20-P1",
+        "sensorCode": "WS-W20-P1",
+        "pipeCode": "WP-W20-01",
+        "wardName": "Paschim Palli",
+        "wardNumber": 20,
+        "pressureBar": 5.07,
+        "flowLpm": 113.3,
+        "leakProbability": 0.211,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.739088,
+          26.545676
+        ]
+      },
+      "properties": {
+        "id": "WS-W20-P2",
+        "sensorCode": "WS-W20-P2",
+        "pipeCode": "WP-W20-02",
+        "wardName": "Paschim Palli",
+        "wardNumber": 20,
+        "pressureBar": 2.13,
+        "flowLpm": 108.9,
+        "leakProbability": 0.138,
+        "estimatedLossLph": 0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    }
+  ]
+}

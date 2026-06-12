@@ -1,0 +1,1445 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.705495,
+          26.54968
+        ]
+      },
+      "properties": {
+        "id": "DS-W01-01",
+        "sensorCode": "DS-W01-01",
+        "drainName": "Kadamtala Drain 1",
+        "wardNumber": 1,
+        "wardName": "Kadamtala",
+        "capacityCm": 100,
+        "currentLevelCm": 25.8,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 25.8,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703748,
+          26.554908
+        ]
+      },
+      "properties": {
+        "id": "DS-W01-02",
+        "sensorCode": "DS-W01-02",
+        "drainName": "Kadamtala Drain 2",
+        "wardNumber": 1,
+        "wardName": "Kadamtala",
+        "capacityCm": 100,
+        "currentLevelCm": 21.9,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 21.9,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700744,
+          26.550986
+        ]
+      },
+      "properties": {
+        "id": "DS-W01-03",
+        "sensorCode": "DS-W01-03",
+        "drainName": "Kadamtala Drain 3",
+        "wardNumber": 1,
+        "wardName": "Kadamtala",
+        "capacityCm": 80,
+        "currentLevelCm": 62.8,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 78.5,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711252,
+          26.548716
+        ]
+      },
+      "properties": {
+        "id": "DS-W02-01",
+        "sensorCode": "DS-W02-01",
+        "drainName": "Deshbandhu Para Drain 1",
+        "wardNumber": 2,
+        "wardName": "Deshbandhu Para",
+        "capacityCm": 150,
+        "currentLevelCm": 37.5,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 25.0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.714324,
+          26.551224
+        ]
+      },
+      "properties": {
+        "id": "DS-W02-02",
+        "sensorCode": "DS-W02-02",
+        "drainName": "Deshbandhu Para Drain 2",
+        "wardNumber": 2,
+        "wardName": "Deshbandhu Para",
+        "capacityCm": 150,
+        "currentLevelCm": 40.2,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 26.8,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711874,
+          26.549914
+        ]
+      },
+      "properties": {
+        "id": "DS-W02-03",
+        "sensorCode": "DS-W02-03",
+        "drainName": "Deshbandhu Para Drain 3",
+        "wardNumber": 2,
+        "wardName": "Deshbandhu Para",
+        "capacityCm": 150,
+        "currentLevelCm": 88.2,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 58.8,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.721244,
+          26.549999
+        ]
+      },
+      "properties": {
+        "id": "DS-W03-01",
+        "sensorCode": "DS-W03-01",
+        "drainName": "Rajbari Drain 1",
+        "wardNumber": 3,
+        "wardName": "Rajbari",
+        "capacityCm": 100,
+        "currentLevelCm": 70.9,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 70.9,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.719908,
+          26.549101
+        ]
+      },
+      "properties": {
+        "id": "DS-W03-02",
+        "sensorCode": "DS-W03-02",
+        "drainName": "Rajbari Drain 2",
+        "wardNumber": 3,
+        "wardName": "Rajbari",
+        "capacityCm": 80,
+        "currentLevelCm": 68.1,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 85.2,
+        "status": "OVERFLOW_RISK",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.71934,
+          26.547807
+        ]
+      },
+      "properties": {
+        "id": "DS-W03-03",
+        "sensorCode": "DS-W03-03",
+        "drainName": "Rajbari Drain 3",
+        "wardNumber": 3,
+        "wardName": "Rajbari",
+        "capacityCm": 80,
+        "currentLevelCm": 31.1,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 38.8,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72382,
+          26.543108
+        ]
+      },
+      "properties": {
+        "id": "DS-W04-01",
+        "sensorCode": "DS-W04-01",
+        "drainName": "Station Para Drain 1",
+        "wardNumber": 4,
+        "wardName": "Station Para",
+        "capacityCm": 150,
+        "currentLevelCm": 107.4,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 71.6,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.720925,
+          26.54582
+        ]
+      },
+      "properties": {
+        "id": "DS-W04-02",
+        "sensorCode": "DS-W04-02",
+        "drainName": "Station Para Drain 2",
+        "wardNumber": 4,
+        "wardName": "Station Para",
+        "capacityCm": 150,
+        "currentLevelCm": 64.5,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 43.0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.722021,
+          26.545949
+        ]
+      },
+      "properties": {
+        "id": "DS-W04-03",
+        "sensorCode": "DS-W04-03",
+        "drainName": "Station Para Drain 3",
+        "wardNumber": 4,
+        "wardName": "Station Para",
+        "capacityCm": 80,
+        "currentLevelCm": 11.4,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 14.3,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725901,
+          26.54077
+        ]
+      },
+      "properties": {
+        "id": "DS-W05-01",
+        "sensorCode": "DS-W05-01",
+        "drainName": "Hospital Para Drain 1",
+        "wardNumber": 5,
+        "wardName": "Hospital Para",
+        "capacityCm": 150,
+        "currentLevelCm": 29.5,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 19.7,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728848,
+          26.542358
+        ]
+      },
+      "properties": {
+        "id": "DS-W05-02",
+        "sensorCode": "DS-W05-02",
+        "drainName": "Hospital Para Drain 2",
+        "wardNumber": 5,
+        "wardName": "Hospital Para",
+        "capacityCm": 80,
+        "currentLevelCm": 50.7,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 63.4,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725584,
+          26.543483
+        ]
+      },
+      "properties": {
+        "id": "DS-W05-03",
+        "sensorCode": "DS-W05-03",
+        "drainName": "Hospital Para Drain 3",
+        "wardNumber": 5,
+        "wardName": "Hospital Para",
+        "capacityCm": 80,
+        "currentLevelCm": 9.1,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 11.4,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727543,
+          26.544765
+        ]
+      },
+      "properties": {
+        "id": "DS-W06-01",
+        "sensorCode": "DS-W06-01",
+        "drainName": "Netaji Para Drain 1",
+        "wardNumber": 6,
+        "wardName": "Netaji Para",
+        "capacityCm": 150,
+        "currentLevelCm": 85.8,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 57.2,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726223,
+          26.542376
+        ]
+      },
+      "properties": {
+        "id": "DS-W06-02",
+        "sensorCode": "DS-W06-02",
+        "drainName": "Netaji Para Drain 2",
+        "wardNumber": 6,
+        "wardName": "Netaji Para",
+        "capacityCm": 80,
+        "currentLevelCm": 54.0,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 67.5,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.728833,
+          26.540285
+        ]
+      },
+      "properties": {
+        "id": "DS-W06-03",
+        "sensorCode": "DS-W06-03",
+        "drainName": "Netaji Para Drain 3",
+        "wardNumber": 6,
+        "wardName": "Netaji Para",
+        "capacityCm": 150,
+        "currentLevelCm": 134.9,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 89.9,
+        "status": "OVERFLOW_RISK",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734735,
+          26.539197
+        ]
+      },
+      "properties": {
+        "id": "DS-W07-01",
+        "sensorCode": "DS-W07-01",
+        "drainName": "Khagrabari Drain 1",
+        "wardNumber": 7,
+        "wardName": "Khagrabari",
+        "capacityCm": 100,
+        "currentLevelCm": 73.3,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 73.3,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.734064,
+          26.540092
+        ]
+      },
+      "properties": {
+        "id": "DS-W07-02",
+        "sensorCode": "DS-W07-02",
+        "drainName": "Khagrabari Drain 2",
+        "wardNumber": 7,
+        "wardName": "Khagrabari",
+        "capacityCm": 100,
+        "currentLevelCm": 65.0,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 65.0,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.736821,
+          26.539494
+        ]
+      },
+      "properties": {
+        "id": "DS-W07-03",
+        "sensorCode": "DS-W07-03",
+        "drainName": "Khagrabari Drain 3",
+        "wardNumber": 7,
+        "wardName": "Khagrabari",
+        "capacityCm": 150,
+        "currentLevelCm": 75.2,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 50.1,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727274,
+          26.537629
+        ]
+      },
+      "properties": {
+        "id": "DS-W08-01",
+        "sensorCode": "DS-W08-01",
+        "drainName": "Ananda Para Drain 1",
+        "wardNumber": 8,
+        "wardName": "Ananda Para",
+        "capacityCm": 150,
+        "currentLevelCm": 51.3,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 34.2,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726094,
+          26.53823
+        ]
+      },
+      "properties": {
+        "id": "DS-W08-02",
+        "sensorCode": "DS-W08-02",
+        "drainName": "Ananda Para Drain 2",
+        "wardNumber": 8,
+        "wardName": "Ananda Para",
+        "capacityCm": 150,
+        "currentLevelCm": 23.7,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 15.8,
+        "status": "OFFLINE",
+        "color": "#94a3b8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727284,
+          26.538297
+        ]
+      },
+      "properties": {
+        "id": "DS-W08-03",
+        "sensorCode": "DS-W08-03",
+        "drainName": "Ananda Para Drain 3",
+        "wardNumber": 8,
+        "wardName": "Ananda Para",
+        "capacityCm": 80,
+        "currentLevelCm": 41.5,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 51.9,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.72115,
+          26.535309
+        ]
+      },
+      "properties": {
+        "id": "DS-W09-01",
+        "sensorCode": "DS-W09-01",
+        "drainName": "Dinbazar Drain 1",
+        "wardNumber": 9,
+        "wardName": "Dinbazar",
+        "capacityCm": 150,
+        "currentLevelCm": 49.9,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 33.3,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716996,
+          26.535294
+        ]
+      },
+      "properties": {
+        "id": "DS-W09-02",
+        "sensorCode": "DS-W09-02",
+        "drainName": "Dinbazar Drain 2",
+        "wardNumber": 9,
+        "wardName": "Dinbazar",
+        "capacityCm": 150,
+        "currentLevelCm": 38.9,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 25.9,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.719871,
+          26.536466
+        ]
+      },
+      "properties": {
+        "id": "DS-W09-03",
+        "sensorCode": "DS-W09-03",
+        "drainName": "Dinbazar Drain 3",
+        "wardNumber": 9,
+        "wardName": "Dinbazar",
+        "capacityCm": 80,
+        "currentLevelCm": 64.3,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 80.4,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.718325,
+          26.532302
+        ]
+      },
+      "properties": {
+        "id": "DS-W10-01",
+        "sensorCode": "DS-W10-01",
+        "drainName": "Kotwali Drain 1",
+        "wardNumber": 10,
+        "wardName": "Kotwali",
+        "capacityCm": 120,
+        "currentLevelCm": 86.3,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 71.9,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.711289,
+          26.534437
+        ]
+      },
+      "properties": {
+        "id": "DS-W10-02",
+        "sensorCode": "DS-W10-02",
+        "drainName": "Kotwali Drain 2",
+        "wardNumber": 10,
+        "wardName": "Kotwali",
+        "capacityCm": 150,
+        "currentLevelCm": 77.0,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 51.4,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.716283,
+          26.532817
+        ]
+      },
+      "properties": {
+        "id": "DS-W10-03",
+        "sensorCode": "DS-W10-03",
+        "drainName": "Kotwali Drain 3",
+        "wardNumber": 10,
+        "wardName": "Kotwali",
+        "capacityCm": 120,
+        "currentLevelCm": 103.0,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 85.8,
+        "status": "OVERFLOW_RISK",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709548,
+          26.532353
+        ]
+      },
+      "properties": {
+        "id": "DS-W11-01",
+        "sensorCode": "DS-W11-01",
+        "drainName": "Rajganj Road Drain 1",
+        "wardNumber": 11,
+        "wardName": "Rajganj Road",
+        "capacityCm": 80,
+        "currentLevelCm": 21.9,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 27.4,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.706836,
+          26.530203
+        ]
+      },
+      "properties": {
+        "id": "DS-W11-02",
+        "sensorCode": "DS-W11-02",
+        "drainName": "Rajganj Road Drain 2",
+        "wardNumber": 11,
+        "wardName": "Rajganj Road",
+        "capacityCm": 80,
+        "currentLevelCm": 42.6,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 53.3,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.709582,
+          26.531877
+        ]
+      },
+      "properties": {
+        "id": "DS-W11-03",
+        "sensorCode": "DS-W11-03",
+        "drainName": "Rajganj Road Drain 3",
+        "wardNumber": 11,
+        "wardName": "Rajganj Road",
+        "capacityCm": 100,
+        "currentLevelCm": 32.2,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 32.2,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.703297,
+          26.52995
+        ]
+      },
+      "properties": {
+        "id": "DS-W12-01",
+        "sensorCode": "DS-W12-01",
+        "drainName": "Malopara Drain 1",
+        "wardNumber": 12,
+        "wardName": "Malopara",
+        "capacityCm": 150,
+        "currentLevelCm": 25.7,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 17.1,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704996,
+          26.530916
+        ]
+      },
+      "properties": {
+        "id": "DS-W12-02",
+        "sensorCode": "DS-W12-02",
+        "drainName": "Malopara Drain 2",
+        "wardNumber": 12,
+        "wardName": "Malopara",
+        "capacityCm": 80,
+        "currentLevelCm": 11.1,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 13.9,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.704201,
+          26.531384
+        ]
+      },
+      "properties": {
+        "id": "DS-W12-03",
+        "sensorCode": "DS-W12-03",
+        "drainName": "Malopara Drain 3",
+        "wardNumber": 12,
+        "wardName": "Malopara",
+        "capacityCm": 80,
+        "currentLevelCm": 36.2,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 45.2,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.69755,
+          26.536378
+        ]
+      },
+      "properties": {
+        "id": "DS-W13-01",
+        "sensorCode": "DS-W13-01",
+        "drainName": "Babu Para Drain 1",
+        "wardNumber": 13,
+        "wardName": "Babu Para",
+        "capacityCm": 120,
+        "currentLevelCm": 92.5,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 77.0,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695237,
+          26.533397
+        ]
+      },
+      "properties": {
+        "id": "DS-W13-02",
+        "sensorCode": "DS-W13-02",
+        "drainName": "Babu Para Drain 2",
+        "wardNumber": 13,
+        "wardName": "Babu Para",
+        "capacityCm": 80,
+        "currentLevelCm": 12.6,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 15.7,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699937,
+          26.5359
+        ]
+      },
+      "properties": {
+        "id": "DS-W13-03",
+        "sensorCode": "DS-W13-03",
+        "drainName": "Babu Para Drain 3",
+        "wardNumber": 13,
+        "wardName": "Babu Para",
+        "capacityCm": 80,
+        "currentLevelCm": 19.7,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 24.6,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.691283,
+          26.539157
+        ]
+      },
+      "properties": {
+        "id": "DS-W14-01",
+        "sensorCode": "DS-W14-01",
+        "drainName": "Kamat Para Drain 1",
+        "wardNumber": 14,
+        "wardName": "Kamat Para",
+        "capacityCm": 120,
+        "currentLevelCm": 43.9,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 36.6,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.692828,
+          26.540163
+        ]
+      },
+      "properties": {
+        "id": "DS-W14-02",
+        "sensorCode": "DS-W14-02",
+        "drainName": "Kamat Para Drain 2",
+        "wardNumber": 14,
+        "wardName": "Kamat Para",
+        "capacityCm": 150,
+        "currentLevelCm": 105.7,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 70.5,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.695422,
+          26.53833
+        ]
+      },
+      "properties": {
+        "id": "DS-W14-03",
+        "sensorCode": "DS-W14-03",
+        "drainName": "Kamat Para Drain 3",
+        "wardNumber": 14,
+        "wardName": "Kamat Para",
+        "capacityCm": 80,
+        "currentLevelCm": 21.9,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 27.4,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700533,
+          26.543951
+        ]
+      },
+      "properties": {
+        "id": "DS-W15-01",
+        "sensorCode": "DS-W15-01",
+        "drainName": "Santosh Para Drain 1",
+        "wardNumber": 15,
+        "wardName": "Santosh Para",
+        "capacityCm": 120,
+        "currentLevelCm": 45.4,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 37.8,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.699902,
+          26.545985
+        ]
+      },
+      "properties": {
+        "id": "DS-W15-02",
+        "sensorCode": "DS-W15-02",
+        "drainName": "Santosh Para Drain 2",
+        "wardNumber": 15,
+        "wardName": "Santosh Para",
+        "capacityCm": 100,
+        "currentLevelCm": 30.8,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 30.8,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700597,
+          26.543449
+        ]
+      },
+      "properties": {
+        "id": "DS-W15-03",
+        "sensorCode": "DS-W15-03",
+        "drainName": "Santosh Para Drain 3",
+        "wardNumber": 15,
+        "wardName": "Santosh Para",
+        "capacityCm": 100,
+        "currentLevelCm": 78.2,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 78.2,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.700571,
+          26.548421
+        ]
+      },
+      "properties": {
+        "id": "DS-W16-01",
+        "sensorCode": "DS-W16-01",
+        "drainName": "Kachhari Para Drain 1",
+        "wardNumber": 16,
+        "wardName": "Kachhari Para",
+        "capacityCm": 100,
+        "currentLevelCm": 67.1,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 67.1,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.70171,
+          26.547849
+        ]
+      },
+      "properties": {
+        "id": "DS-W16-02",
+        "sensorCode": "DS-W16-02",
+        "drainName": "Kachhari Para Drain 2",
+        "wardNumber": 16,
+        "wardName": "Kachhari Para",
+        "capacityCm": 120,
+        "currentLevelCm": 29.0,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 24.2,
+        "status": "OFFLINE",
+        "color": "#94a3b8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.701404,
+          26.549707
+        ]
+      },
+      "properties": {
+        "id": "DS-W16-03",
+        "sensorCode": "DS-W16-03",
+        "drainName": "Kachhari Para Drain 3",
+        "wardNumber": 16,
+        "wardName": "Kachhari Para",
+        "capacityCm": 150,
+        "currentLevelCm": 100.0,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 66.7,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713102,
+          26.549234
+        ]
+      },
+      "properties": {
+        "id": "DS-W17-01",
+        "sensorCode": "DS-W17-01",
+        "drainName": "Titu Para Drain 1",
+        "wardNumber": 17,
+        "wardName": "Titu Para",
+        "capacityCm": 120,
+        "currentLevelCm": 58.5,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 48.8,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713514,
+          26.550983
+        ]
+      },
+      "properties": {
+        "id": "DS-W17-02",
+        "sensorCode": "DS-W17-02",
+        "drainName": "Titu Para Drain 2",
+        "wardNumber": 17,
+        "wardName": "Titu Para",
+        "capacityCm": 150,
+        "currentLevelCm": 90.2,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 60.1,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713493,
+          26.551735
+        ]
+      },
+      "properties": {
+        "id": "DS-W17-03",
+        "sensorCode": "DS-W17-03",
+        "drainName": "Titu Para Drain 3",
+        "wardNumber": 17,
+        "wardName": "Titu Para",
+        "capacityCm": 120,
+        "currentLevelCm": 55.2,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 46.0,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717957,
+          26.555921
+        ]
+      },
+      "properties": {
+        "id": "DS-W18-01",
+        "sensorCode": "DS-W18-01",
+        "drainName": "Bhagat Singh Colony Drain 1",
+        "wardNumber": 18,
+        "wardName": "Bhagat Singh Colony",
+        "capacityCm": 80,
+        "currentLevelCm": 33.5,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 41.8,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.717071,
+          26.556808
+        ]
+      },
+      "properties": {
+        "id": "DS-W18-02",
+        "sensorCode": "DS-W18-02",
+        "drainName": "Bhagat Singh Colony Drain 2",
+        "wardNumber": 18,
+        "wardName": "Bhagat Singh Colony",
+        "capacityCm": 80,
+        "currentLevelCm": 31.0,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 38.7,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.713721,
+          26.557289
+        ]
+      },
+      "properties": {
+        "id": "DS-W18-03",
+        "sensorCode": "DS-W18-03",
+        "drainName": "Bhagat Singh Colony Drain 3",
+        "wardNumber": 18,
+        "wardName": "Bhagat Singh Colony",
+        "capacityCm": 100,
+        "currentLevelCm": 13.9,
+        "alertThreshold": 70.0,
+        "criticalThreshold": 85.0,
+        "fillPct": 13.9,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.725373,
+          26.553353
+        ]
+      },
+      "properties": {
+        "id": "DS-W19-01",
+        "sensorCode": "DS-W19-01",
+        "drainName": "Purba Jalpaiguri Drain 1",
+        "wardNumber": 19,
+        "wardName": "Purba Jalpaiguri",
+        "capacityCm": 120,
+        "currentLevelCm": 88.0,
+        "alertThreshold": 84.0,
+        "criticalThreshold": 102.0,
+        "fillPct": 73.4,
+        "status": "HIGH",
+        "color": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.726337,
+          26.552604
+        ]
+      },
+      "properties": {
+        "id": "DS-W19-02",
+        "sensorCode": "DS-W19-02",
+        "drainName": "Purba Jalpaiguri Drain 2",
+        "wardNumber": 19,
+        "wardName": "Purba Jalpaiguri",
+        "capacityCm": 150,
+        "currentLevelCm": 87.4,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 58.3,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.727089,
+          26.550355
+        ]
+      },
+      "properties": {
+        "id": "DS-W19-03",
+        "sensorCode": "DS-W19-03",
+        "drainName": "Purba Jalpaiguri Drain 3",
+        "wardNumber": 19,
+        "wardName": "Purba Jalpaiguri",
+        "capacityCm": 80,
+        "currentLevelCm": 69.6,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 87.0,
+        "status": "OVERFLOW_RISK",
+        "color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.741899,
+          26.548644
+        ]
+      },
+      "properties": {
+        "id": "DS-W20-01",
+        "sensorCode": "DS-W20-01",
+        "drainName": "Paschim Palli Drain 1",
+        "wardNumber": 20,
+        "wardName": "Paschim Palli",
+        "capacityCm": 80,
+        "currentLevelCm": 14.0,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 17.4,
+        "status": "NORMAL",
+        "color": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.736527,
+          26.547544
+        ]
+      },
+      "properties": {
+        "id": "DS-W20-02",
+        "sensorCode": "DS-W20-02",
+        "drainName": "Paschim Palli Drain 2",
+        "wardNumber": 20,
+        "wardName": "Paschim Palli",
+        "capacityCm": 150,
+        "currentLevelCm": 81.1,
+        "alertThreshold": 105.0,
+        "criticalThreshold": 127.5,
+        "fillPct": 54.1,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.735413,
+          26.545865
+        ]
+      },
+      "properties": {
+        "id": "DS-W20-03",
+        "sensorCode": "DS-W20-03",
+        "drainName": "Paschim Palli Drain 3",
+        "wardNumber": 20,
+        "wardName": "Paschim Palli",
+        "capacityCm": 80,
+        "currentLevelCm": 51.5,
+        "alertThreshold": 56.0,
+        "criticalThreshold": 68.0,
+        "fillPct": 64.4,
+        "status": "ELEVATED",
+        "color": "#ca8a04"
+      }
+    }
+  ]
+}

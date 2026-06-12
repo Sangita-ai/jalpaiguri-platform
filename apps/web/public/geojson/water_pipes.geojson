@@ -1,0 +1,1045 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.707749,
+            26.550279
+          ],
+          [
+            88.705967,
+            26.552718
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W01-01",
+        "pipeCode": "WP-W01-01",
+        "material": "PVC",
+        "installYear": 2002,
+        "condition": "POOR",
+        "wardName": "Kadamtala",
+        "wardNumber": 1,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.702944,
+            26.548303
+          ],
+          [
+            88.706444,
+            26.552073
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W01-02",
+        "pipeCode": "WP-W01-02",
+        "material": "GI",
+        "installYear": 2011,
+        "condition": "FAIR",
+        "wardName": "Kadamtala",
+        "wardNumber": 1,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.70975,
+            26.54945
+          ],
+          [
+            88.710685,
+            26.552688
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W02-01",
+        "pipeCode": "WP-W02-01",
+        "material": "Ductile Iron",
+        "installYear": 2005,
+        "condition": "FAIR",
+        "wardName": "Deshbandhu Para",
+        "wardNumber": 2,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.711987,
+            26.548331
+          ],
+          [
+            88.711693,
+            26.549879
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W02-02",
+        "pipeCode": "WP-W02-02",
+        "material": "GI",
+        "installYear": 1999,
+        "condition": "POOR",
+        "wardName": "Deshbandhu Para",
+        "wardNumber": 2,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.715698,
+            26.548139
+          ],
+          [
+            88.718675,
+            26.549233
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W03-01",
+        "pipeCode": "WP-W03-01",
+        "material": "GI",
+        "installYear": 1994,
+        "condition": "POOR",
+        "wardName": "Rajbari",
+        "wardNumber": 3,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.717643,
+            26.548062
+          ],
+          [
+            88.7173,
+            26.551139
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W03-02",
+        "pipeCode": "WP-W03-02",
+        "material": "HDPE",
+        "installYear": 1991,
+        "condition": "CRITICAL",
+        "wardName": "Rajbari",
+        "wardNumber": 3,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.723163,
+            26.547625
+          ],
+          [
+            88.721856,
+            26.547001
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W04-01",
+        "pipeCode": "WP-W04-01",
+        "material": "Cast Iron",
+        "installYear": 2008,
+        "condition": "FAIR",
+        "wardName": "Station Para",
+        "wardNumber": 4,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.722012,
+            26.54602
+          ],
+          [
+            88.719844,
+            26.543186
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W04-02",
+        "pipeCode": "WP-W04-02",
+        "material": "GI",
+        "installYear": 1996,
+        "condition": "POOR",
+        "wardName": "Station Para",
+        "wardNumber": 4,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.728528,
+            26.546274
+          ],
+          [
+            88.727267,
+            26.541376
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W05-01",
+        "pipeCode": "WP-W05-01",
+        "material": "Ductile Iron",
+        "installYear": 1998,
+        "condition": "POOR",
+        "wardName": "Hospital Para",
+        "wardNumber": 5,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.727734,
+            26.545334
+          ],
+          [
+            88.727093,
+            26.545088
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W05-02",
+        "pipeCode": "WP-W05-02",
+        "material": "GI",
+        "installYear": 2002,
+        "condition": "POOR",
+        "wardName": "Hospital Para",
+        "wardNumber": 5,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.72991,
+            26.541235
+          ],
+          [
+            88.729642,
+            26.540679
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W06-01",
+        "pipeCode": "WP-W06-01",
+        "material": "GI",
+        "installYear": 1986,
+        "condition": "CRITICAL",
+        "wardName": "Netaji Para",
+        "wardNumber": 6,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.726804,
+            26.540353
+          ],
+          [
+            88.7284,
+            26.540955
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W06-02",
+        "pipeCode": "WP-W06-02",
+        "material": "HDPE",
+        "installYear": 1994,
+        "condition": "POOR",
+        "wardName": "Netaji Para",
+        "wardNumber": 6,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.735194,
+            26.537033
+          ],
+          [
+            88.733544,
+            26.540309
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W07-01",
+        "pipeCode": "WP-W07-01",
+        "material": "HDPE",
+        "installYear": 1999,
+        "condition": "POOR",
+        "wardName": "Khagrabari",
+        "wardNumber": 7,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.73412,
+            26.539908
+          ],
+          [
+            88.734462,
+            26.53932
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W07-02",
+        "pipeCode": "WP-W07-02",
+        "material": "Cast Iron",
+        "installYear": 2018,
+        "condition": "GOOD",
+        "wardName": "Khagrabari",
+        "wardNumber": 7,
+        "conditionColor": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.727656,
+            26.537077
+          ],
+          [
+            88.727991,
+            26.537528
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W08-01",
+        "pipeCode": "WP-W08-01",
+        "material": "Ductile Iron",
+        "installYear": 2003,
+        "condition": "POOR",
+        "wardName": "Ananda Para",
+        "wardNumber": 8,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.728991,
+            26.538207
+          ],
+          [
+            88.729458,
+            26.540003
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W08-02",
+        "pipeCode": "WP-W08-02",
+        "material": "GI",
+        "installYear": 1988,
+        "condition": "CRITICAL",
+        "wardName": "Ananda Para",
+        "wardNumber": 8,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.721468,
+            26.536632
+          ],
+          [
+            88.718062,
+            26.53803
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W09-01",
+        "pipeCode": "WP-W09-01",
+        "material": "Cast Iron",
+        "installYear": 2012,
+        "condition": "FAIR",
+        "wardName": "Dinbazar",
+        "wardNumber": 9,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.723899,
+            26.536314
+          ],
+          [
+            88.721267,
+            26.537715
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W09-02",
+        "pipeCode": "WP-W09-02",
+        "material": "Ductile Iron",
+        "installYear": 1985,
+        "condition": "CRITICAL",
+        "wardName": "Dinbazar",
+        "wardNumber": 9,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.715028,
+            26.532
+          ],
+          [
+            88.712594,
+            26.535113
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W10-01",
+        "pipeCode": "WP-W10-01",
+        "material": "HDPE",
+        "installYear": 2012,
+        "condition": "FAIR",
+        "wardName": "Kotwali",
+        "wardNumber": 10,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.714626,
+            26.535105
+          ],
+          [
+            88.71473,
+            26.535571
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W10-02",
+        "pipeCode": "WP-W10-02",
+        "material": "PVC",
+        "installYear": 2006,
+        "condition": "FAIR",
+        "wardName": "Kotwali",
+        "wardNumber": 10,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.710018,
+            26.53296
+          ],
+          [
+            88.708868,
+            26.532078
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W11-01",
+        "pipeCode": "WP-W11-01",
+        "material": "HDPE",
+        "installYear": 2020,
+        "condition": "GOOD",
+        "wardName": "Rajganj Road",
+        "wardNumber": 11,
+        "conditionColor": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.708308,
+            26.530078
+          ],
+          [
+            88.709317,
+            26.531652
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W11-02",
+        "pipeCode": "WP-W11-02",
+        "material": "GI",
+        "installYear": 1992,
+        "condition": "CRITICAL",
+        "wardName": "Rajganj Road",
+        "wardNumber": 11,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.705397,
+            26.52908
+          ],
+          [
+            88.703067,
+            26.528337
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W12-01",
+        "pipeCode": "WP-W12-01",
+        "material": "GI",
+        "installYear": 2018,
+        "condition": "GOOD",
+        "wardName": "Malopara",
+        "wardNumber": 12,
+        "conditionColor": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.702372,
+            26.529751
+          ],
+          [
+            88.703451,
+            26.529854
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W12-02",
+        "pipeCode": "WP-W12-02",
+        "material": "Ductile Iron",
+        "installYear": 1990,
+        "condition": "CRITICAL",
+        "wardName": "Malopara",
+        "wardNumber": 12,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.697933,
+            26.537427
+          ],
+          [
+            88.696762,
+            26.536014
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W13-01",
+        "pipeCode": "WP-W13-01",
+        "material": "Cast Iron",
+        "installYear": 2014,
+        "condition": "GOOD",
+        "wardName": "Babu Para",
+        "wardNumber": 13,
+        "conditionColor": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.697308,
+            26.537266
+          ],
+          [
+            88.697085,
+            26.535783
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W13-02",
+        "pipeCode": "WP-W13-02",
+        "material": "PVC",
+        "installYear": 2004,
+        "condition": "FAIR",
+        "wardName": "Babu Para",
+        "wardNumber": 13,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.696793,
+            26.54284
+          ],
+          [
+            88.693011,
+            26.5394
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W14-01",
+        "pipeCode": "WP-W14-01",
+        "material": "PVC",
+        "installYear": 1990,
+        "condition": "CRITICAL",
+        "wardName": "Kamat Para",
+        "wardNumber": 14,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.692381,
+            26.542425
+          ],
+          [
+            88.69798,
+            26.541902
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W14-02",
+        "pipeCode": "WP-W14-02",
+        "material": "HDPE",
+        "installYear": 2020,
+        "condition": "GOOD",
+        "wardName": "Kamat Para",
+        "wardNumber": 14,
+        "conditionColor": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.700148,
+            26.544484
+          ],
+          [
+            88.698905,
+            26.543872
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W15-01",
+        "pipeCode": "WP-W15-01",
+        "material": "Cast Iron",
+        "installYear": 1987,
+        "condition": "CRITICAL",
+        "wardName": "Santosh Para",
+        "wardNumber": 15,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.697535,
+            26.542248
+          ],
+          [
+            88.699504,
+            26.54478
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W15-02",
+        "pipeCode": "WP-W15-02",
+        "material": "GI",
+        "installYear": 1989,
+        "condition": "CRITICAL",
+        "wardName": "Santosh Para",
+        "wardNumber": 15,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.701951,
+            26.547666
+          ],
+          [
+            88.702069,
+            26.548205
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W16-01",
+        "pipeCode": "WP-W16-01",
+        "material": "GI",
+        "installYear": 1996,
+        "condition": "POOR",
+        "wardName": "Kachhari Para",
+        "wardNumber": 16,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.699503,
+            26.548825
+          ],
+          [
+            88.703616,
+            26.546862
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W16-02",
+        "pipeCode": "WP-W16-02",
+        "material": "PVC",
+        "installYear": 2012,
+        "condition": "FAIR",
+        "wardName": "Kachhari Para",
+        "wardNumber": 16,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.712545,
+            26.551628
+          ],
+          [
+            88.710868,
+            26.551513
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W17-01",
+        "pipeCode": "WP-W17-01",
+        "material": "HDPE",
+        "installYear": 1986,
+        "condition": "CRITICAL",
+        "wardName": "Titu Para",
+        "wardNumber": 17,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.710592,
+            26.550904
+          ],
+          [
+            88.714849,
+            26.552228
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W17-02",
+        "pipeCode": "WP-W17-02",
+        "material": "PVC",
+        "installYear": 1986,
+        "condition": "CRITICAL",
+        "wardName": "Titu Para",
+        "wardNumber": 17,
+        "conditionColor": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.715369,
+            26.553906
+          ],
+          [
+            88.71849,
+            26.554518
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W18-01",
+        "pipeCode": "WP-W18-01",
+        "material": "GI",
+        "installYear": 2010,
+        "condition": "FAIR",
+        "wardName": "Bhagat Singh Colony",
+        "wardNumber": 18,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.720756,
+            26.555098
+          ],
+          [
+            88.720393,
+            26.554349
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W18-02",
+        "pipeCode": "WP-W18-02",
+        "material": "HDPE",
+        "installYear": 2007,
+        "condition": "FAIR",
+        "wardName": "Bhagat Singh Colony",
+        "wardNumber": 18,
+        "conditionColor": "#ca8a04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.728103,
+            26.550327
+          ],
+          [
+            88.728019,
+            26.548545
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W19-01",
+        "pipeCode": "WP-W19-01",
+        "material": "Cast Iron",
+        "installYear": 2000,
+        "condition": "POOR",
+        "wardName": "Purba Jalpaiguri",
+        "wardNumber": 19,
+        "conditionColor": "#ea580c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.727769,
+            26.551168
+          ],
+          [
+            88.727355,
+            26.551071
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W19-02",
+        "pipeCode": "WP-W19-02",
+        "material": "GI",
+        "installYear": 2018,
+        "condition": "GOOD",
+        "wardName": "Purba Jalpaiguri",
+        "wardNumber": 19,
+        "conditionColor": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.737239,
+            26.544462
+          ],
+          [
+            88.737858,
+            26.547419
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W20-01",
+        "pipeCode": "WP-W20-01",
+        "material": "Ductile Iron",
+        "installYear": 2017,
+        "condition": "GOOD",
+        "wardName": "Paschim Palli",
+        "wardNumber": 20,
+        "conditionColor": "#16a34a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            88.738494,
+            26.546039
+          ],
+          [
+            88.741726,
+            26.54588
+          ]
+        ]
+      },
+      "properties": {
+        "id": "WP-W20-02",
+        "pipeCode": "WP-W20-02",
+        "material": "GI",
+        "installYear": 2012,
+        "condition": "FAIR",
+        "wardName": "Paschim Palli",
+        "wardNumber": 20,
+        "conditionColor": "#ca8a04"
+      }
+    }
+  ]
+}
