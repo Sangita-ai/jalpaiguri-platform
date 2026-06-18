@@ -77,9 +77,7 @@ router.post(
           is_active: true,
         },
       });
-      console.log("EMAIL:", email);
-      console.log("USER FOUND:", !!user);
-
+      
       if (!user) {
         return res.status(401).json({
           error: 'Invalid credentials',
@@ -96,8 +94,7 @@ router.post(
         password,
         user.password_hash
       );
-      console.log("PASSWORD ENTERED:", password);
-      console.log("PASSWORD MATCH:", valid);
+      
 
       if (!valid) {
         return res.status(401).json({
