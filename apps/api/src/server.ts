@@ -23,6 +23,7 @@ import { errorHandler }        from './middleware/error';
 // import { initSensorBroadcast } from './websocket/sensor.broadcast';
 
 const app        = express();
+app.set('trust proxy', 1);
 const httpServer = createServer(app);
 
 export const io = new SocketServer(httpServer, {
