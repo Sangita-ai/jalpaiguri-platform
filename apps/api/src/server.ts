@@ -10,16 +10,17 @@ import { rateLimit } from 'express-rate-limit';
 import authRouter      from './routes/auth';
 import complaintsRouter from './routes/complaints';
 import dashboardRouter  from './routes/dashboard';
-import gisRouter        from './routes/gis';
+// import gisRouter        from './routes/gis';
 import tasksRouter      from './routes/tasks';
-import treesRouter      from './routes/trees';
-import waterRouter      from './routes/water';
-import drainsRouter     from './routes/drains';
+// import treesRouter      from './routes/trees';
+// import waterRouter      from './routes/water';
+// import drainsRouter     from './routes/drains';
 import aiRouter         from './routes/ai';
 import usersRouter      from './routes/users';
 
 import { errorHandler }        from './middleware/error';
-import { initSensorBroadcast } from './websocket/sensor.broadcast';
+
+// import { initSensorBroadcast } from './websocket/sensor.broadcast';
 
 const app        = express();
 const httpServer = createServer(app);
@@ -65,15 +66,24 @@ app.use('/api/auth/login', rateLimit({
 app.use('/api/auth',       authRouter);
 app.use('/api/complaints', complaintsRouter);
 app.use('/api/dashboard',  dashboardRouter);
-app.use('/api/gis',        gisRouter);
+// app.use('/api/gis',        gisRouter);
 app.use('/api/tasks',      tasksRouter);
-app.use('/api/trees',      treesRouter);
-app.use('/api/water',      waterRouter);
-app.use('/api/drains',     drainsRouter);
+// app.use('/api/trees',      treesRouter);
+// app.use('/api/water',      waterRouter);
+// app.use('/api/drains',     drainsRouter);
 app.use('/api/ai',         aiRouter);
 app.use('/api/users',      usersRouter);
 
+app.get('/', (_req, res) => {
+  res.json({
+    status: 'ok',
+    message: 'Jalpaiguri Platform API Running',
+  });
+});
+
 // Health check
+
+
 app.get('/api/health', (_req, res) => {
   res.json({
     status:    'ok',
@@ -93,7 +103,7 @@ app.use((_req, res) => {
 app.use(errorHandler);
 
 // ── WebSocket ─────────────────────────────────────────────────
-initSensorBroadcast(io);
+// initSensorBroadcast(io);
 
 // ── Start ─────────────────────────────────────────────────────
 const PORT = parseInt(process.env.PORT || '4000');

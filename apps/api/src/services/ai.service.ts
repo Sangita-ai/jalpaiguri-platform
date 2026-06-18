@@ -77,7 +77,7 @@ export async function checkDuplicate(
     const since = new Date(Date.now() - withinHours * 3600 * 1000);
     const recent = await prisma.complaint.findMany({
       where: {
-        submittedAt: { gte: since },
+        submitted_at: { gte: since },
         ...(locationLat && locationLng ? {
           locationLat: { gte: locationLat - 0.005, lte: locationLat + 0.005 },
           locationLng: { gte: locationLng - 0.005, lte: locationLng + 0.005 },
