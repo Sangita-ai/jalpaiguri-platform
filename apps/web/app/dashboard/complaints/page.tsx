@@ -31,7 +31,7 @@ export default function ComplaintsPage() {
   const { data, isLoading } = useQuery({
     queryKey: ['complaints', page, search, status, category, priority],
     queryFn: () => complaintsApi.list({ page, limit: 20, search, status, category, priority }),
-    keepPreviousData: true,
+    
   });
 
   const { data: workers } = useQuery({

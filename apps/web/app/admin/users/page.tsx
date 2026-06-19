@@ -1,10 +1,10 @@
 'use client';
 import { useState } from 'react';
-import DashboardShell from '@/components/layout/DashboardShell';
+import DashboardShell from '../../../components/layout/DashboardShell';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { usersApi } from '@/lib/api';
-import { ROLE_LABELS, ROLE_COLORS } from '@/lib/auth';
-import { fmt } from '@/lib/utils';
+import { usersApi } from '../../../lib/api';
+import { ROLE_LABELS, ROLE_COLORS } from '../../../lib/auth';
+import { fmt } from '../../../lib/utils';
 import { Users, Plus, Search, UserX, Edit2, X, Shield } from 'lucide-react';
 import toast from 'react-hot-toast';
 

@@ -8,7 +8,7 @@ import MapPopup, { PopupData } from '@/components/maps/MapPopup';
 import { useMapbox, MapStyle } from '@/hooks/useMapbox';
 import { useQuery } from '@tanstack/react-query';
 import { gisApi, dashboardApi } from '@/lib/api';
-import { buildWardsGeoJSON, JALPAIGURI_BOUNDS } from '@/../../../packages/geojson-data/jalpaiguri-wards';
+import { buildWardsGeoJSON, JALPAIGURI_BOUNDS } from '../../../../../packages/geojson-data/jalpaiguri-wards';
 import {
   wardFillLayer, wardLineLayer, wardLabelLayer,
   complaintHeatmapLayer, clusterCircleLayer, clusterCountLayer, unclusteredPointLayer,

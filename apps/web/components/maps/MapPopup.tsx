@@ -167,9 +167,4 @@ function WardPopupBody({ p }: { p: Record<string, any> }) {
   );
 }
 
-function waterStatusColor(prob: number): string {
-  if (prob > 0.75) return '#dc2626';
-  if (prob > 0.50) return '#ea580c';
-  if (prob > 0.25) return '#ca8a04';
-  return '#16a34a';
-}
+
