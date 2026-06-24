@@ -73,11 +73,11 @@ export default function AdminUsersPage() {
               <tr key={u.id}>
                 <td>
                   <div className="flex items-center gap-2.5">
-                    <div className="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center text-brand-700 text-xs font-semibold flex-shrink-0">
-                      {u.name[0]}
+                    <div className="w-8 h-8 rounded-full bg-brand-100 flex items-center justify-center">
+                      {(u.full_name || '?').charAt(0).toUpperCase()}
                     </div>
                     <div>
-                      <p className="text-sm font-medium text-slate-800">{u.name}</p>
+                      <p className="text-sm font-medium text-slate-800">{u.full_name}</p>
                       <p className="text-xs text-slate-400">{u.email}</p>
                     </div>
                   </div>

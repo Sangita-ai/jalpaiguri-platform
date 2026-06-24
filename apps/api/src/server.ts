@@ -12,15 +12,17 @@ import complaintsRouter from './routes/complaints';
 import dashboardRouter  from './routes/dashboard';
 // import gisRouter        from './routes/gis';
 import tasksRouter      from './routes/tasks';
-// import treesRouter      from './routes/trees';
-// import waterRouter      from './routes/water';
-// import drainsRouter     from './routes/drains';
+import treesRouter      from './routes/trees';
+import waterRouter      from './routes/water';
+import drainsRouter     from './routes/drains';
 import aiRouter         from './routes/ai';
 import usersRouter      from './routes/users';
 
 import { errorHandler }        from './middleware/error';
 
 // import { initSensorBroadcast } from './websocket/sensor.broadcast';
+console.log("JWT_SECRET =", process.env.JWT_SECRET);
+console.log("JWT_REFRESH_SECRET =", process.env.JWT_REFRESH_SECRET);
 
 const app = express();
 app.set('trust proxy', 1);

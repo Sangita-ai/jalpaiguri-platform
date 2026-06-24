@@ -487,5 +487,5 @@ async function main() {
 }
 
 main()
-  .catch(e => { console.error(e); process.exit(1); })
+  .catch(e => { console.error(e); (process as any).exit(1); })
   .finally(() => prisma.$disconnect());

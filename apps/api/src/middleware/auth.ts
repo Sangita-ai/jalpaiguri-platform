@@ -35,11 +35,11 @@ export async function authenticate(
   
 
   console.log("TOKEN RECEIVED:", token);
-  console.log("JWT SECRET:", process.env.JWT_SECRET);
+  console.log("JWT SECRET:", process.env.JWT_SECRET || "dev-secret-change-me");
   try {
     const payload = jwt.verify(
       token,
-      process.env.JWT_SECRET!
+      process.env.JWT_SECRET||"dev-secret-change-me"
     ) as AuthUser & {
       iat: number;
       exp: number;

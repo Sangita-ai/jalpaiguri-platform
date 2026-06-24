@@ -8,11 +8,107 @@ export function cn(...inputs: ClassValue[]) {
 
 // Date formatting
 export const fmt = {
-  date: (d: string | Date) => format(typeof d === 'string' ? parseISO(d) : d, 'dd MMM yyyy'),
-  datetime: (d: string | Date) => format(typeof d === 'string' ? parseISO(d) : d, 'dd MMM yyyy, HH:mm'),
-  time: (d: string | Date) => format(typeof d === 'string' ? parseISO(d) : d, 'HH:mm'),
-  relative: (d: string | Date) => formatDistanceToNow(typeof d === 'string' ? parseISO(d) : d, { addSuffix: true }),
-  short: (d: string | Date) => format(typeof d === 'string' ? parseISO(d) : d, 'dd MMM'),
+  date: (d: any) => {
+    try {
+      if (!d) return 'N/A';
+
+      const date =
+        typeof d === 'string'
+          ? parseISO(d)
+          : d instanceof Date
+          ? d
+          : new Date(d);
+
+      if (!(date instanceof Date) || isNaN(date.getTime()))
+        return 'N/A';
+
+      return format(date, 'dd MMM yyyy');
+    } catch {
+      return 'N/A';
+    }
+  },
+
+  datetime: (d: any) => {
+    try {
+      if (!d) return 'N/A';
+
+      const date =
+        typeof d === 'string'
+          ? parseISO(d)
+          : d instanceof Date
+          ? d
+          : new Date(d);
+
+      if (!(date instanceof Date) || isNaN(date.getTime()))
+        return 'N/A';
+
+      return format(date, 'dd MMM yyyy, HH:mm');
+    } catch {
+      return 'N/A';
+    }
+  },
+
+  time: (d: any) => {
+    try {
+      if (!d) return 'N/A';
+
+      const date =
+        typeof d === 'string'
+          ? parseISO(d)
+          : d instanceof Date
+          ? d
+          : new Date(d);
+
+      if (!(date instanceof Date) || isNaN(date.getTime()))
+        return 'N/A';
+
+      return format(date, 'HH:mm');
+    } catch {
+      return 'N/A';
+    }
+  },
+
+  relative: (d: any) => {
+    try {
+      if (!d) return 'N/A';
+
+      const date =
+        typeof d === 'string'
+          ? parseISO(d)
+          : d instanceof Date
+          ? d
+          : new Date(d);
+
+      if (!(date instanceof Date) || isNaN(date.getTime()))
+        return 'N/A';
+
+      return formatDistanceToNow(date, {
+        addSuffix: true,
+      });
+    } catch {
+      return 'N/A';
+    }
+  },
+
+  short: (d: any) => {
+    try {
+      if (!d) return 'N/A';
+
+      const date =
+        typeof d === 'string'
+          ? parseISO(d)
+          : d instanceof Date
+          ? d
+          : new Date(d);
+
+      if (!(date instanceof Date) || isNaN(date.getTime()))
+        return 'N/A';
+
+      return format(date, 'dd MMM');
+    } catch {
+      return 'N/A';
+    }
+  },
 };
 
 // Complaint helpers

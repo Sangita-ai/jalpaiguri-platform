@@ -24,6 +24,7 @@ function createClient(): AxiosInstance {
         if (refresh) {
           try {
             const { data } = await axios.post(`${BASE}/api/auth/refresh`, { refreshToken: refresh });
+            
             localStorage.setItem('access_token', data.accessToken);
             orig.headers.Authorization = `Bearer ${data.accessToken}`;
             return client(orig);
@@ -36,11 +37,13 @@ function createClient(): AxiosInstance {
   return client;
 }
 
-function logout() {
+export function logout(): void {
+  console.log("AUTH STORE LOGOUT CALLED");
+  console.trace();
+
   if (typeof window !== 'undefined') {
     localStorage.removeItem('access_token');
     localStorage.removeItem('refresh_token');
-    localStorage.removeItem('user');
     window.location.href = '/login';
   }
 }
@@ -141,7 +144,7 @@ export const tasksApi = {
 export const usersApi = {
   list: (params?: Record<string, any>) =>
     api.get('/api/users', { params }).then(r => r.data),
-  workers: () => api.get('/api/users', { params: { role: 'FIELD_WORKER' } }).then(r => r.data),
+  workers: () => api.get('/api/users', { params: { role: 'FIELD_WORKER' } }).then(r => r.data.data),
   create: (data: Record<string, any>) =>
     api.post('/api/users', data).then(r => r.data),
   update: (id: string, data: Record<string, any>) =>

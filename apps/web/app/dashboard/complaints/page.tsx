@@ -66,6 +66,8 @@ export default function ComplaintsPage() {
   };
 
   const complaints = data?.data ?? [];
+
+// console.log("COMPLAINT DATA =", complaints);
   const pagination = data?.pagination;
   const hasFilters = !!(search || status || category || priority);
 
@@ -164,6 +166,7 @@ export default function ComplaintsPage() {
                   description={hasFilters ? 'Try adjusting your filters.' : 'No complaints have been submitted yet.'} />
               </td></tr>
             )}
+            {/* console.log("COMPLAINTS =", complaints); */}
             {complaints.map((c: any) => (
               <tr key={c.id}>
                 <td>
@@ -172,11 +175,11 @@ export default function ComplaintsPage() {
                 </td>
                 <td>
                   <Link href={`/dashboard/complaints/${c.id}`} className="font-mono text-xs text-brand-600 hover:underline block">
-                    {c.complaintNumber}
+                    {c.complaint_no}
                   </Link>
-                  {c.locationLat && (
+                  {c.latitude && (
                     <span className="flex items-center gap-1 text-2xs text-slate-400 mt-0.5">
-                      <MapPin className="w-2.5 h-2.5" />{c.locationLat?.toFixed(4)}, {c.locationLng?.toFixed(4)}
+                      <MapPin className="w-2.5 h-2.5" />{c.latitude?.toFixed(4)}, {c.longitude?.toFixed(4)}
                     </span>
                   )}
                 </td>
@@ -186,8 +189,8 @@ export default function ComplaintsPage() {
                   <p className="text-xs text-slate-700 max-w-[200px] truncate">{c.description}</p>
                 </td>
                 <td><StatusBadge status={c.status} /></td>
-                <td><PriorityBadge score={c.priorityScore} /></td>
-                <td className="text-xs text-slate-500 whitespace-nowrap">{fmt.relative(c.submittedAt)}</td>
+                <td><PriorityBadge score={c.priority_score} /></td>
+                <td className="text-xs text-slate-500 whitespace-nowrap">{fmt.relative(c.submitted_at)}</td>
                 <td>
                   <div className="flex items-center gap-1">
                     <Link href={`/dashboard/complaints/${c.id}`}

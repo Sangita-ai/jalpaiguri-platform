@@ -33,28 +33,66 @@ export const useAuth = create<AuthState>()(
       isLoading: false,
 
       login: async (email, password) => {
-        set({ isLoading: true });
-        try {
-          const data = await authApi.login(email, password);
-          if (typeof window !== 'undefined') {
-            localStorage.setItem('access_token', data.accessToken);
-            localStorage.setItem('refresh_token', data.refreshToken);
-          }
-          set({ user: data.user, accessToken: data.accessToken, refreshToken: data.refreshToken, isLoading: false });
-        } catch (e) {
-          set({ isLoading: false });
-          throw e;
-        }
-      },
+  set({ isLoading: true });
+
+  try {
+    const data = await authApi.login(email, password);
+    localStorage.setItem(
+  "access_token",
+  data.accessToken
+);
+
+localStorage.setItem(
+  "refresh_token",
+  data.refreshToken
+);
+
+localStorage.setItem(
+  "user",
+  JSON.stringify(data.user)
+);
+
+    console.log("LOGIN RESPONSE =", data);
+
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('access_token', data.accessToken);
+      localStorage.setItem('refresh_token', data.refreshToken);
+
+      console.log(
+        "TOKEN AFTER SAVE =",
+        localStorage.getItem("access_token")
+      );
+    }
+
+    set({
+      user: data.user,
+      accessToken: data.accessToken,
+      refreshToken: data.refreshToken,
+      isLoading: false,
+    });
+  } catch (e) {
+    set({ isLoading: false });
+    throw e;
+  }
+},
 
       logout: () => {
-        if (typeof window !== 'undefined') {
-          localStorage.removeItem('access_token');
-          localStorage.removeItem('refresh_token');
-        }
-        set({ user: null, accessToken: null, refreshToken: null });
-        window.location.href = '/login';
-      },
+  console.log("LOGOUT CALLED");
+  console.trace();
+
+  if (typeof window !== 'undefined') {
+    localStorage.removeItem('access_token');
+    localStorage.removeItem('refresh_token');
+  }
+
+  set({
+    user: null,
+    accessToken: null,
+    refreshToken: null,
+  });
+
+  window.location.href = '/login';
+},
 
       setTokens: (access, refresh) => {
         localStorage.setItem('access_token', access);

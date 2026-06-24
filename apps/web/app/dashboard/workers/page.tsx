@@ -23,12 +23,16 @@ export default function WorkersPage() {
     onError: () => toast.error('Failed to create worker'),
   });
 
-  const totals = {
-    total: workers?.length ?? 0,
-    active: stats?.active ?? (workers?.length ?? 0),
-    tasksOpen: stats?.openTasks ?? 0,
-    tasksToday: stats?.completedToday ?? 0,
-  };
+  const workerList = workers?.data ?? [];
+
+const totals = {
+  total: workerList.length,
+  active:
+    stats?.active ??
+    workerList.filter((w: any) => w.is_active).length,
+  tasksOpen: stats?.openTasks ?? 0,
+  tasksToday: stats?.completedToday ?? 0,
+};
 
   return (
     <DashboardShell title="Field Workers">
@@ -64,10 +68,10 @@ export default function WorkersPage() {
           <div key={w.id} className="card p-4 hover:shadow-card-hover transition-shadow">
             <div className="flex items-center gap-3 mb-3">
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center text-white font-semibold text-sm flex-shrink-0">
-                {w.name[0]}
+                {w.full_name[0]}
               </div>
               <div className="min-w-0">
-                <p className="text-sm font-semibold text-slate-800 truncate">{w.name}</p>
+                <p className="text-sm font-semibold text-slate-800 truncate">{w.full_name}</p>
                 <p className="text-xs text-slate-400 truncate">{w.email}</p>
               </div>
             </div>
@@ -82,8 +86,8 @@ export default function WorkersPage() {
               </div>
             </div>
             <div className="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between">
-              <span className={`text-2xs font-medium px-2 py-0.5 rounded-full ${w.isActive ? 'bg-green-50 text-green-700' : 'bg-slate-100 text-slate-500'}`}>
-                {w.isActive ? 'Active' : 'Inactive'}
+              <span className={`text-2xs font-medium px-2 py-0.5 rounded-full ${w.is_active ? 'bg-green-50 text-green-700' : 'bg-slate-100 text-slate-500'}`}>
+                {w.is_active ? 'Active' : 'Inactive'}
               </span>
               <span className="text-2xs text-slate-400">
                 {w._count?.assignedTasks ?? 0} tasks

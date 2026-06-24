@@ -14,11 +14,27 @@ import {
 export default function AnalyticsPage() {
   const { data: wardStats } = useQuery({ queryKey: ['ward-stats'], queryFn: dashboardApi.wardStats });
   const { data: sla }       = useQuery({ queryKey: ['sla-report'], queryFn: dashboardApi.slaReport });
-  const { data: workers }   = useQuery({ queryKey: ['workers'],    queryFn: dashboardApi.workers });
+  // const { data: workers }   = useQuery({ queryKey: ['workers'],    queryFn: dashboardApi.workers });
 
-  const ws  = wardStats ?? MOCK_WARD_STATS;
-  const slaD = sla?.categories ?? MOCK_SLA;
-
+  const ws = Array.isArray(wardStats)
+  ? wardStats.map((w: any) => ({
+      ward_id: w.id,
+      ward_name: w.name,
+      total_complaints: w.complaintCount,
+      resolved_complaints: w.resolvedCount,
+      open_complaints: w.complaintCount - w.resolvedCount,
+      resolution_rate:
+        w.complaintCount > 0
+          ? Math.round((w.resolvedCount / w.complaintCount) * 100)
+          : 0,
+      avg_resolution_hours: 0,
+      total_trees: 0,
+    }))
+  : MOCK_WARD_STATS;
+const slaD =
+  Array.isArray(sla) && sla.length > 0
+    ? sla
+    : MOCK_SLA;
   return (
     <DashboardShell title="Analytics & Reports">
       <div className="page-header">
@@ -52,13 +68,34 @@ export default function AnalyticsPage() {
               <ComposedChart data={MOCK_MONTHLY}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
                 <XAxis dataKey="month" tick={{ fontSize: 10 }} tickLine={false} axisLine={false} />
-                <YAxis tick={{ fontSize: 10 }} tickLine={false} axisLine={false} />
+                <YAxis
+  yAxisId={0}
+  tick={{ fontSize: 10 }}
+  tickLine={false}
+  axisLine={false}
+/>
+
+<YAxis
+  
+  orientation="right"
+  domain={[0, 100]}
+  tickFormatter={(v) => `${v}%`}
+  tick={{ fontSize: 10 }}
+  tickLine={false}
+  axisLine={false}
+/> 
                 <Tooltip contentStyle={{ borderRadius: 8, fontSize: 11 }} />
                 <Legend wrapperStyle={{ fontSize: 11 }} />
                 <Bar dataKey="submitted" name="Submitted" fill="#93c5fd" radius={[3,3,0,0]} barSize={14} />
                 <Bar dataKey="resolved"  name="Resolved"  fill="#4ade80" radius={[3,3,0,0]} barSize={14} />
-                <Line dataKey="resolutionRate" name="Resolution %" yAxisId={1}
-                  type="monotone" stroke="#f59e0b" strokeWidth={2} dot={false} />
+                <Line
+  dataKey="resolutionRate"
+  name="Resolution %"
+  type="monotone"
+  stroke="#f59e0b"
+  strokeWidth={2}
+  dot={false}
+ />
               </ComposedChart>
             </ResponsiveContainer>
           </div>
@@ -122,7 +159,9 @@ export default function AnalyticsPage() {
           </div>
           <div className="card-body">
             <ResponsiveContainer width="100%" height={260}>
-              <BarChart data={ws.slice(0, 15).sort((a: any, b: any) => (b.resolution_rate ?? 0) - (a.resolution_rate ?? 0))} barSize={12}>
+              <BarChart data={[...ws]
+  .sort((a,b)=>b.resolution_rate-a.resolution_rate)
+  .slice(0,15)} barSize={12}>
                 <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
                 <XAxis dataKey="ward_name" tick={{ fontSize: 8 }} tickLine={false} axisLine={false} angle={-30} textAnchor="end" height={40} />
                 <YAxis domain={[0, 100]} tickFormatter={v => `${v}%`} tick={{ fontSize: 10 }} tickLine={false} axisLine={false} />

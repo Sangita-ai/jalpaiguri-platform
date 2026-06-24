@@ -253,6 +253,44 @@ router.get(
   }
 );
 
+// GET /api/users/workers
+router.get(
+  '/workers',
+  requireMinRole('DEPT_HEAD'),
+  async (_req: Request, res: Response) => {
+    try {
+      const workers = await prisma.user.findMany({
+        where: {
+          role: 'FIELD_WORKER',
+          is_active: true,
+        },
+
+        select: {
+          id: true,
+          full_name: true,
+          email: true,
+
+          ward: {
+            select: {
+              id: true,
+              name: true,
+              name_bn: true,
+            },
+          },
+        },
+
+        orderBy: {
+          full_name: 'asc',
+        },
+      });
+
+      res.json(workers);
+    } catch (e) {
+      serverError(res, e);
+    }
+  }
+);
+
 // GET /api/users/:id
 router.get(
   '/:id',

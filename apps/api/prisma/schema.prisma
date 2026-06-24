@@ -4,13 +4,14 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
-  directUrl = env("DIRECT_URL")
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  directUrl  = env("DIRECT_URL")
+  extensions = [postgis(schema: "public"), uuid_ossp(map: "uuid-ossp", schema: "extensions")]
 }
 
 model User {
-  id                   String         @id @default(uuid()) @db.Uuid
+  id                   String         @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
   email                String         @unique @db.VarChar(255)
   password_hash        String         @db.VarChar(255)
   full_name            String         @db.VarChar(255)
@@ -22,7 +23,7 @@ model User {
   is_active            Boolean        @default(true)
   last_login_at        DateTime?
   created_at           DateTime       @default(now())
-  updated_at           DateTime       @updatedAt
+  updated_at           DateTime       @default(now()) @updatedAt
   assigned_by_me       Assignment[]   @relation("OfficerAssignments")
   assigned_tasks       Assignment[]   @relation("WorkerAssignments")
   audit_logs           AuditLog[]

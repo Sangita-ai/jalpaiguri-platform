@@ -3,10 +3,11 @@ import { z } from 'zod';
 import { authenticate, optionalAuth } from '../middleware/auth';
 import { requireMinRole } from '../middleware/rbac';
 import { multiUpload } from '../middleware/upload';
+import cloudinary from '../utils/cloudinary';
 import { validate } from '../middleware/validate';
 import { auditLog } from '../middleware/audit';
 import { prisma } from '../utils/prisma';
-import { uploadToS3 } from '../utils/s3';
+// import { uploadToS3 } from '../utils/s3';
 import { aiTriageComplaint } from '../services/ai.service';
 import {
   resolveWardFromGPS,
@@ -182,7 +183,7 @@ router.post(
   async (req: Request, res: Response) => {
     try {
 
-      console.log("REQUEST BODY:", req.body);
+      // console.log("REQUEST BODY:", req.body);
 
       const parsed = CreateSchema.safeParse(req.body);
 
@@ -204,7 +205,7 @@ router.post(
       }
       if (!wardId) {
         const first = await prisma.ward.findFirst({ orderBy: { name_bn: 'asc' } });
-        console.log("FIRST WARD =", first);
+        // console.log("FIRST WARD =", first);
         wardId = first!.id;
       }
 
@@ -235,37 +236,76 @@ router.post(
       });
 
       // Upload photos
+      // const files = req.files as Express.Multer.File[] | undefined;
+      // if (files?.length) {
+      //   await Promise.all(files.map(async (file) => {
+      //     const key = `complaints/${complaint.id}/${Date.now()}-${file.originalname.replace(/[^a-zA-Z0-9._-]/g, '_')}`;
+      //     const url = await uploadToS3(key, file.buffer, file.mimetype);
+      //     await prisma.complaintAttachment.create({
+      //       data: {
+      //         complaint_id: complaint.id,
+      //         s3_key: key,
+      //         s3_url: url,
+      //         file_name: file.originalname,
+      //         file_type: file.mimetype,
+      //         file_size_kb: Math.ceil(file.size / 1024),
+      //       },
+      //     });
+      //   }));
+      // }
+      
       const files = req.files as Express.Multer.File[] | undefined;
-      if (files?.length) {
-        await Promise.all(files.map(async (file) => {
-          const key = `complaints/${complaint.id}/${Date.now()}-${file.originalname.replace(/[^a-zA-Z0-9._-]/g, '_')}`;
-          const url = await uploadToS3(key, file.buffer, file.mimetype);
-          await prisma.complaintAttachment.create({
-            data: {
-              complaint_id: complaint.id,
-              s3_key: key,
-              s3_url: url,
-              file_name: file.originalname,
-              file_type: file.mimetype,
-              file_size_kb: Math.ceil(file.size / 1024),
-            },
-          });
-        }));
-      }
 
-      // Broadcast to WebSocket subscribers
-      if ((global as any).broadcastComplaintUpdate) {
-        (global as any).broadcastComplaintUpdate(complaint);
-      }
+if (files?.length) {
+  try {
+    await Promise.all(
+      files.map(async (file) => {
 
-      const full = await prisma.complaint.findUnique({
-        where: { id: complaint.id }, include: COMPLAINT_INCLUDE,
-      });
-      created(res, full);
-    } catch (e) { serverError(res, e); }
+        const base64 =
+          `data:${file.mimetype};base64,${file.buffer.toString('base64')}`;
+
+        const uploaded = await cloudinary.uploader.upload(
+          base64,
+          {
+            folder: `complaints/${complaint.id}`,
+            resource_type: 'auto',
+          }
+        );
+
+        await prisma.complaintAttachment.create({
+          data: {
+            complaint_id: complaint.id,
+            s3_key: uploaded.public_id,
+            s3_url: uploaded.secure_url,
+            file_name: file.originalname,
+            file_type: file.mimetype,
+            file_size_kb: Math.ceil(file.size / 1024),
+          },
+        });
+      })
+    );
+
+  } catch (err) {
+    console.error(
+      "Cloudinary upload failed, complaint created anyway:",
+      err
+    );
+  }
+}
+
+// Broadcast to WebSocket subscribers
+if ((global as any).broadcastComplaintUpdate) {
+  (global as any).broadcastComplaintUpdate(complaint);
+}
+
+const full = await prisma.complaint.findUnique({
+  where: { id: complaint.id },
+  include: COMPLAINT_INCLUDE,
+});
+
+created(res, full);    } catch (e) { serverError(res, e); }
   }
 );
-
 // ── PATCH /api/complaints/:id/status ─────────────────────────
 router.patch('/:id/status',
   authenticate,
