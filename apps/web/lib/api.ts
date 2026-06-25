@@ -1,54 +1,84 @@
 // Typed API client — wraps all backend calls
-import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
+// import axios, { AxiosInstance, AxiosRequestConfig } from 'axios';
 
-const BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+// const BASE = process.env.NEXT_PUBLIC_API_URL ;
 
-function createClient(): AxiosInstance {
-  const client = axios.create({ baseURL: BASE, withCredentials: true });
+// function createClient(): AxiosInstance {
+//   const client = axios.create({ baseURL: BASE, withCredentials: true });
 
-  client.interceptors.request.use((config) => {
-    if (typeof window !== 'undefined') {
-      const token = localStorage.getItem('access_token');
-      if (token) config.headers.Authorization = `Bearer ${token}`;
+import axios from "axios";
+
+const BASE_URL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  "http://localhost:4000";
+
+const api = axios.create({
+  baseURL: BASE_URL,
+  withCredentials: true,
+});
+
+api.interceptors.request.use((config) => {
+  if (typeof window !== "undefined") {
+    const token = localStorage.getItem("access_token");
+
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
     }
-    return config;
-  });
+  }
 
-  client.interceptors.response.use(
-    (r) => r,
-    async (error) => {
-      const orig = error.config;
-      if (error.response?.status === 401 && !orig._retry) {
-        orig._retry = true;
-        const refresh = localStorage.getItem('refresh_token');
-        if (refresh) {
-          try {
-            const { data } = await axios.post(`${BASE}/api/auth/refresh`, { refreshToken: refresh });
-            
-            localStorage.setItem('access_token', data.accessToken);
-            orig.headers.Authorization = `Bearer ${data.accessToken}`;
-            return client(orig);
-          } catch { logout(); }
-        }
-      }
-      return Promise.reject(error);
-    }
-  );
-  return client;
-}
+  return config;
+});
 
 export function logout(): void {
-  console.log("AUTH STORE LOGOUT CALLED");
-  console.trace();
-
-  if (typeof window !== 'undefined') {
-    localStorage.removeItem('access_token');
-    localStorage.removeItem('refresh_token');
-    window.location.href = '/login';
+  if (typeof window !== "undefined") {
+    localStorage.removeItem("access_token");
+    localStorage.removeItem("refresh_token");
+    window.location.href = "/login";
   }
 }
 
-export const api = createClient();
+api.interceptors.response.use(
+  (response) => response,
+  async (error) => {
+    const originalRequest = error.config;
+
+    if (
+      error.response?.status === 401 &&
+      !originalRequest._retry
+    ) {
+      originalRequest._retry = true;
+
+      const refreshToken =
+        localStorage.getItem("refresh_token");
+
+      if (refreshToken) {
+        try {
+          const { data } = await axios.post(
+            `${BASE_URL}/api/auth/refresh`,
+            { refreshToken }
+          );
+
+          localStorage.setItem(
+            "access_token",
+            data.accessToken
+          );
+
+          originalRequest.headers.Authorization =
+            `Bearer ${data.accessToken}`;
+
+          return api(originalRequest);
+        } catch {
+          logout();
+        }
+      }
+    }
+
+    return Promise.reject(error);
+  }
+);
+
+export { api };
+export default api;
 
 // ── Auth ──────────────────────────────────────────────────────
 export const authApi = {
