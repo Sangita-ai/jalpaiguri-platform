@@ -30,7 +30,7 @@ const httpServer = createServer(app);
 
 export const io = new SocketServer(httpServer, {
   cors: {
-    origin:  process.env.FRONTEND_URL || 'http://localhost:3000',
+    origin:  ['http://localhost:3000', 'https://jalpaiguri-platform-web.onrender.com'],
     methods: ['GET', 'POST'],
     credentials: true,
   },
