@@ -14,18 +14,18 @@ router.get('/', async (req: Request, res: Response) => {
   try {
     const { wardId, status } = req.query as Record<string, string>;
     const where: any = {};
-    if (wardId) where.wardId = wardId;
-    if (status) where.status = status;
+    if (wardId) where.ward_id = Number(wardId)
+    // if (status) where.status = status;
 
     const sensors = await prisma.drainSensor.findMany({
       where,
       include: {
-        ward: { select: { name: true, wardNumber: true } },
+        ward: { select: { name: true, name_bn: true } },
         _count: { select: { readings: true } },
       },
       orderBy: [
-        { status: 'asc' }, // OFFLINE last
-        { currentLevelCm: 'desc' },
+        // { status: 'asc' }, // OFFLINE last
+        { current_level_cm: 'desc' },
       ],
     });
     res.json(sensors);
@@ -43,7 +43,7 @@ router.get('/:id', async (req: Request, res: Response) => {
   try {
     const sensor = await prisma.drainSensor.findUnique({
       where:   { id: req.params.id },
-      include: { ward: { select: { name: true, wardNumber: true } } },
+      include: { ward: { select: { name: true, name_bn: true } } },
     });
     if (!sensor) return notFound(res, 'Sensor not found');
     res.json(sensor);
@@ -57,9 +57,9 @@ router.get('/:id/history', async (req: Request, res: Response) => {
     const since = new Date(Date.now() - hours * 3600 * 1000);
 
     const readings = await prisma.drainReading.findMany({
-      where:   { sensorId: req.params.id, recordedAt: { gte: since } },
-      orderBy: { recordedAt: 'asc' },
-      select:  { levelCm: true, rainfallMm: true, status: true, recordedAt: true },
+      where:   { sensor_id: req.params.id, recorded_at: { gte: since } },
+      orderBy: { recorded_at: 'asc' },
+      select:  { level_cm: true, rainfall_mm: true, recorded_at: true },
     });
 
     // Downsample to max 200 points for chart performance
@@ -67,11 +67,11 @@ router.get('/:id/history', async (req: Request, res: Response) => {
     const sampled = readings.filter((_, i) => i % step === 0);
 
     res.json(sampled.map((r) => ({
-      levelCm:    r.levelCm,
-      rainfallMm: r.rainfallMm,
-      status:     r.status,
-      hour:       new Date(r.recordedAt).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }),
-      timestamp:  r.recordedAt,
+      levelCm:    r.level_cm,
+      rainfallMm: r.rainfall_mm,
+      
+      hour:       new Date(r.recorded_at).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }),
+      timestamp:  r.recorded_at,
     })));
   } catch (e) { serverError(res, e); }
 });

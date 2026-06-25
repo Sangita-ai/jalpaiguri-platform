@@ -32,15 +32,15 @@ router.get('/', requireMinRole('DEPT_HEAD'), async (req: Request, res: Response)
     const { page, limit, skip } = getPagination(req);
     const { wardId, healthStatus, species } = req.query as Record<string, string>;
     const where: any = {};
-    if (wardId)       where.wardId       = wardId;
-    if (healthStatus) where.healthStatus = healthStatus;
-    if (species)      where.speciesCommon = { contains: species, mode: 'insensitive' };
+    if (wardId)       where.ward_id       = Number(wardId);
+    if (healthStatus) where.health_status = healthStatus;
+    if (species)      where.species_name = { contains: species, mode: 'insensitive' };
 
     const [data, total] = await Promise.all([
       prisma.tree.findMany({
         where,
-        include: { ward: { select: { name: true, wardNumber: true } } },
-        orderBy: { createdAt: 'desc' },
+        include: { ward: { select: { name: true, name_bn: true } } },
+        orderBy: { created_at: 'desc' },
         skip, take: limit,
       }),
       prisma.tree.count({ where }),
@@ -58,8 +58,8 @@ router.get('/stats', requireMinRole('DEPT_HEAD'), async (_req: Request, res: Res
 // GET /api/trees/carbon
 router.get('/carbon', requireMinRole('DEPT_HEAD'), async (_req: Request, res: Response) => {
   try {
-    const agg = await prisma.tree.aggregate({ _sum: { carbonKg: true }, _count: { id: true } });
-    const totalKg = agg._sum.carbonKg ?? 0;
+    const agg = await prisma.tree.aggregate({ _sum: { carbon_kg: true }, _count: { id: true } });
+    const totalKg = agg._sum.carbon_kg ?? 0;
     res.json({
       totalKg:     Math.round(totalKg),
       totalTonnes: +(totalKg / 1000).toFixed(2),
@@ -74,7 +74,7 @@ router.get('/:id', requireMinRole('DEPT_HEAD'), async (req: Request, res: Respon
   try {
     const tree = await prisma.tree.findUnique({
       where:   { id: req.params.id },
-      include: { ward: true, surveyedBy: { select: { name: true } } },
+      include: { ward: { select: { name: true, name_bn: true } } },
     });
     if (!tree) return notFound(res, 'Tree not found');
     res.json(tree);
@@ -84,16 +84,22 @@ router.get('/:id', requireMinRole('DEPT_HEAD'), async (req: Request, res: Respon
 // POST /api/trees
 router.post('/', requireMinRole('FIELD_WORKER'), validate(CreateTreeSchema), async (req: Request, res: Response) => {
   try {
-    const count   = await prisma.tree.count();
-    const treeCode = `JLP-T-${String(count + 1).padStart(5, '0')}`;
+    // const count   = await prisma.tree.count();
+    // const treeCode = `JLP-T-${String(count + 1).padStart(5, '0')}`;
+    // const tree = await prisma.tree.create({
+    //   data: {
+    //     ...req.body,
+    //     treeCode,
+    //     surveyedById: req.user!.id,
+    //     lastSurveyed: new Date(),
+    //   },
+    // });
     const tree = await prisma.tree.create({
-      data: {
-        ...req.body,
-        treeCode,
-        surveyedById: req.user!.id,
-        lastSurveyed: new Date(),
-      },
-    });
+  data: {
+    ...req.body,
+    
+  },
+});
     created(res, tree);
   } catch (e) { serverError(res, e); }
 });
@@ -103,7 +109,7 @@ router.patch('/:id', requireMinRole('FIELD_WORKER'), async (req: Request, res: R
   try {
     const tree = await prisma.tree.update({
       where: { id: req.params.id },
-      data:  { ...req.body, lastSurveyed: new Date(), surveyedById: req.user!.id },
+      data:  { ...req.body, lastSurveyed: new Date() },
     });
     res.json(tree);
   } catch (e) { serverError(res, e); }

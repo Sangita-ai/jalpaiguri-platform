@@ -78,7 +78,7 @@ export async function getWardsGeoJSON() {
     },
     properties: {
       id:                  w.ward_id,
-      wardNumber:          w.ward_number,
+      wardNumber:          w.name ?? `Ward ${w.ward_number}`,
       name:                w.name,
       population:          w.population,
       areaHa:              w.area_hectares,
@@ -102,12 +102,12 @@ export async function getComplaintHeatmap() {
       COUNT(*)::bigint                        AS count,
       MODE() WITHIN GROUP (ORDER BY category) AS category
     FROM complaints
-    WHERE location_lat IS NOT NULL
-      AND location_lng IS NOT NULL
+    WHERE latitude IS NOT NULL
+      AND longitude IS NOT NULL
       AND submitted_at >= NOW() - INTERVAL '90 days'
     GROUP BY
-      ROUND(location_lat::numeric, 3),
-      ROUND(location_lng::numeric, 3)
+      ROUND(latitude::numeric, 3),
+      ROUND(longitude::numeric, 3)
     HAVING COUNT(*) >= 1
     ORDER BY count DESC
     LIMIT 800
@@ -129,8 +129,8 @@ export async function getComplaintHeatmap() {
 // ── Complaint points (clustered source data) ──────────────────
 export async function getComplaintPoints(filters: Record<string, string> = {}) {
   const where: any = {
-    locationLat: { not: null },
-    locationLng: { not: null },
+    latitude: { not: null },
+    longitude: { not: null },
   };
   if (filters.status)   where.status   = filters.status;
   if (filters.category) where.category = filters.category;
@@ -145,37 +145,58 @@ export async function getComplaintPoints(filters: Record<string, string> = {}) {
     where,
     select: {
       id:              true,
-      complaintNumber: true,
+      complaint_no: true,
       category:        true,
       status:          true,
-      priorityScore:   true,
-      locationLat:     true,
-      locationLng:     true,
+      priority_score:   true,
+      latitude:     true,
+      longitude:     true,
       description:     true,
-      submittedAt:     true,
-      ward:            { select: { name: true, wardNumber: true } },
+      submitted_at:     true,
+      ward:            { select: { name: true, name_bn : true } },
     },
-    orderBy: { submittedAt: 'desc' },
+    orderBy: { submitted_at: 'desc' },
     take:    3000,
   });
 
-  const features = complaints.map((c) => ({
+  // const features = complaints.map((c) => ({
+  //   type: 'Feature' as const,
+  //   geometry: {
+  //     type: 'Point' as const,
+  //     coordinates: [c.longitude, c.latitude],
+  //   },
+  //   properties: {
+  //     id:              c.id,
+  //     complaintNumber: c.complaint_no,
+  //     category:        c.category,
+  //     status:          c.status,
+  //     priorityScore:   c.priority_score,
+  //     description:     c.description.slice(0, 120),
+  //     submittedAt: c.submitted_at?.toISOString?.() ?? c.submitted_at,
+  //     // wardNumber:      c.ward.Ward,
+  //     wardName:        c.ward.name,
+  //     color:           CATEGORY_COLORS[c.category] ?? '#6b7280',
+  //   },
+  // }));
+
+  const features = complaints
+  .filter(c => c.latitude != null && c.longitude != null)
+  .map((c) => ({
     type: 'Feature' as const,
     geometry: {
       type: 'Point' as const,
-      coordinates: [c.locationLng!, c.locationLat!],
+      coordinates: [c.longitude, c.latitude],
     },
     properties: {
-      id:              c.id,
-      complaintNumber: c.complaintNumber,
-      category:        c.category,
-      status:          c.status,
-      priorityScore:   c.priorityScore,
-      description:     c.description.slice(0, 120),
-      submittedAt:     c.submittedAt.toISOString(),
-      wardNumber:      c.ward.wardNumber,
-      wardName:        c.ward.name,
-      color:           CATEGORY_COLORS[c.category] ?? '#6b7280',
+      id: c.id,
+      complaintNumber: c.complaint_no,
+      category: c.category,
+      status: c.status,
+      priorityScore: c.priority_score,
+      description: c.description?.slice(0, 120) ?? '',
+      submittedAt: c.submitted_at,
+      wardName: c.ward?.name,
+      color: CATEGORY_COLORS[c.category] ?? '#6b7280',
     },
   }));
 
@@ -185,29 +206,29 @@ export async function getComplaintPoints(filters: Record<string, string> = {}) {
 // ── Drain sensors ─────────────────────────────────────────────
 export async function getDrainsGeoJSON() {
   const sensors = await prisma.drainSensor.findMany({
-    include: { ward: { select: { name: true, wardNumber: true } } },
-    orderBy: { currentLevelCm: 'desc' },
+    include: { ward: { select: { name: true, name_bn: true } } },
+    orderBy: { current_level_cm: 'desc' },
   });
 
   const features = sensors.map((s) => ({
     type: 'Feature' as const,
     geometry: {
       type: 'Point' as const,
-      coordinates: [s.locationLng, s.locationLat],
+      coordinates: [s.longitude, s.latitude],
     },
     properties: {
       id:             s.id,
-      sensorCode:     s.sensorCode,
-      drainName:      s.drainName,
+      sensorCode:     s.sensor_code,
+      // drainName:      s.drain_name,
       wardName:       s.ward.name,
-      wardNumber:     s.ward.wardNumber,
-      currentLevelCm: s.currentLevelCm,
-      capacityCm:     s.capacityCm,
-      alertThreshold: s.alertThreshold,
-      criticalThreshold: s.criticalThreshold,
+      // wardNumber:     s.ward.name_bn,
+      currentLevelCm: s.current_level_cm,
+      capacityCm:     s.capacity_cm,
+      // alertThreshold: s.alert_threshold,
+      // criticalThreshold: s.critical_threshold,
       status:         s.status,
-      fillPct:        Math.round((s.currentLevelCm / s.capacityCm) * 100),
-      lastReading:    s.lastReading?.toISOString() ?? null,
+      fillPct:        Math.round((s.current_level_cm / s.capacity_cm) * 100),
+      lastReading:    s.last_reading?.toISOString() ?? null,
     },
   }));
 
@@ -217,43 +238,44 @@ export async function getDrainsGeoJSON() {
 // ── Trees ─────────────────────────────────────────────────────
 export async function getTreesGeoJSON(wardId?: string) {
   const trees = await prisma.tree.findMany({
-    where:  wardId ? { wardId } : {},
+    where: wardId
+  ? { ward_id: Number(wardId) }
+  : {},
     select: {
-      id:            true,
-      treeCode:      true,
-      speciesCommon: true,
-      locationLat:   true,
-      locationLng:   true,
-      heightM:       true,
-      crownDiaM:     true,
-      trunkDiaCm:    true,
-      healthStatus:  true,
-      canopyStatus:  true,
-      carbonKg:      true,
-      plantedAt:     true,
-      wardId:        true,
-    },
+  id: true,
+  species_name: true,
+  common_name: true,
+  latitude: true,
+  longitude: true,
+  height_m: true,
+  crown_dia_m: true,
+  trunk_dia_cm: true,
+  health_status: true,
+  carbon_kg: true,
+  planted_at: true,
+  ward_id: true,
+},
     take: 5000,
-    orderBy: { healthStatus: 'asc' }, // show unhealthy on top in Z-order
+    orderBy: { health_status: 'asc' }, // show unhealthy on top in Z-order
   });
 
   const features = trees.map((t) => ({
     type: 'Feature' as const,
     geometry: {
       type: 'Point' as const,
-      coordinates: [t.locationLng, t.locationLat],
+      coordinates: [t.longitude, t.latitude],
     },
     properties: {
       id:           t.id,
-      treeCode:     t.treeCode,
-      species:      t.speciesCommon,
-      heightM:      t.heightM,
-      crownDiaM:    t.crownDiaM,
-      trunkDiaCm:   t.trunkDiaCm,
-      healthStatus: t.healthStatus,
-      canopyStatus: t.canopyStatus,
-      carbonKg:     t.carbonKg,
-      plantedAt:    t.plantedAt?.toISOString().slice(0, 10) ?? null,
+      // treeCode:     t.tree_code,
+      species:      t.species_name,
+      heightM:      t.height_m,
+      crownDiaM:    t.crown_dia_m,
+      trunkDiaCm:   t.trunk_dia_cm,
+      healthStatus: t.health_status,
+      // canopyStatus: t.canopy_status,
+      carbonKg:     t.carbon_kg,
+      plantedAt:    t.planted_at?.toISOString().slice(0, 10) ?? null,
     },
   }));
 
@@ -262,36 +284,41 @@ export async function getTreesGeoJSON(wardId?: string) {
 
 // ── Water pipes ───────────────────────────────────────────────
 export async function getWaterPipesGeoJSON() {
+  // const pipes = await prisma.waterPipe.findMany({
+  //   include: {
+  //     sensors: { select: { leak_probability: true, status: true, sensor_code: true, latitude: true, longitude: true, pressure_bar: true, flow_lpm: true, estimated_loss_lph: true } },
+  //     ward:    { select: { name: true, name_bn: true } },
+  //   },
   const pipes = await prisma.waterPipe.findMany({
     include: {
-      sensors: { select: { leakProbability: true, status: true, sensorCode: true, locationLat: true, locationLng: true, pressureBar: true, flowLpm: true, estimatedLossLph: true } },
-      ward:    { select: { name: true, wardNumber: true } },
+      ward: true,
+      sensors: true,
     },
   });
 
   const pipeFeatures = pipes.map((p) => {
-    const maxLeak = Math.max(0, ...p.sensors.map(s => s.leakProbability));
+    const maxLeak = Math.max(0, ...p.sensors.map(s => s.leak_probability));
     return {
       type: 'Feature' as const,
       geometry: {
         type: 'LineString' as const,
-        coordinates: [
-          [p.startLng, p.startLat],
-          [p.endLng,   p.endLat],
-        ],
+        // coordinates: [
+        //   [p.startLng, p.startLat],
+        //   [p.endLng,   p.endLat],
+        // ],
       },
       properties: {
         id:          p.id,
-        pipeCode:    p.pipeCode,
+        pipeCode:    p.pipe_code,
         material:    p.material,
-        diameterMm:  p.diameterMm,
-        condition:   p.condition,
+        diameterMm:  p.diameter_mm,
+        // condition:   p.condition,
         wardName:    p.ward.name,
-        wardNumber:  p.ward.wardNumber,
+        // wardNumber:  p.ward.name_bn,
         maxLeakProb: maxLeak,
         hasLeak:     maxLeak > 0.5,
-        lengthM:     p.lengthM,
-        installYear: p.installationYear,
+        lengthM:     p.length_m,
+        installYear: p.install_year,
       },
     };
   });
@@ -300,15 +327,16 @@ export async function getWaterPipesGeoJSON() {
   const sensorFeatures = pipes.flatMap(p =>
     p.sensors.map(s => ({
       type: 'Feature' as const,
-      geometry: { type: 'Point' as const, coordinates: [s.locationLng, s.locationLat] },
+      geometry: { type: 'Point' as const, coordinates: [s.longitude, s.latitude] },
       properties: {
-        sensorCode:        s.sensorCode,
-        pipeCode:          p.pipeCode,
-        leakProbability:   s.leakProbability,
-        status:            s.status,
-        pressureBar:       s.pressureBar,
-        flowLpm:           s.flowLpm,
-        estimatedLossLph:  s.estimatedLossLph,
+        sensorCode:        s.sensor_code,
+        pipeCode:          p.pipe_code,
+        leakProbability:   s.leak_probability,
+        // /status:            s.status,
+        alertLevel: s.alert_level,
+        pressureBar:       s.pressure_bar,
+        flowLpm:           s.flow_lpm,
+        estimatedLossLph:  s.estimated_loss_lph,
       },
     }))
   );

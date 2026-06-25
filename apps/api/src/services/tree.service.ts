@@ -4,11 +4,11 @@ export async function getTreeStats() {
   const [total, byHealth, bySpecies, byWard, carbonTotal] = await Promise.all([
     prisma.tree.count(),
     prisma.tree.groupBy({
-      by: ['healthStatus'],
+      by: ['health_status'],
       _count: { id: true },
     }),
     prisma.tree.groupBy({
-      by: ['speciesCommon'],
+      by: ['species_name'],
       _count: { id: true },
       orderBy: { _count: { id: 'desc' } },
       take: 10,
@@ -25,14 +25,14 @@ export async function getTreeStats() {
       ORDER BY w.ward_number
     `,
     prisma.tree.aggregate({
-      _sum: { carbonKg: true },
+      _sum: { carbon_kg: true },
     }),
   ]);
 
   const healthMap: Record<string, number> = {};
-  byHealth.forEach((b) => { healthMap[b.healthStatus] = b._count.id; });
+  byHealth.forEach((b) => { healthMap[b.health_status] = b._count.id; });
 
-  const speciesMap = bySpecies.map((b) => ({ species: b.speciesCommon, count: b._count.id }));
+  const speciesMap = bySpecies.map((b) => ({ species: b.species_name, count: b._count.id }));
 
   return {
     total,
@@ -44,7 +44,7 @@ export async function getTreeStats() {
       totalCarbon:  Math.round(w.total_carbon),
       greenCoverHa: w.green_cover_ha,
     })),
-    totalCarbonKg:    Math.round(carbonTotal._sum.carbonKg ?? 0),
-    totalCarbonTonnes: +((carbonTotal._sum.carbonKg ?? 0) / 1000).toFixed(1),
+    totalCarbonKg:    Math.round(carbonTotal._sum.carbon_kg ?? 0),
+    totalCarbonTonnes: +((carbonTotal._sum.carbon_kg ?? 0) / 1000).toFixed(1),
   };
 }
